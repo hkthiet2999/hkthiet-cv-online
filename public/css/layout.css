@@ -202,9 +202,12 @@ ul#nav li.current a { color: #F06000; }
    margin-bottom: 12px;
 }
 #about p {
-   line-height: 30px;
-   color: #7A7A7A;
+   line-height: 50px;
+   color: #fff;
+   font-family: 'Dosis', sans-serif;
+   font-family: 'Yomogi', cursive;
 }
+
 #about .profile-pic {
    position: relative;
    width: 120px;
@@ -412,10 +415,21 @@ ul#nav li.current a { color: #F06000; }
 
 #portfolio {
    background: #ebeeee;
-   padding-top: 90px;
+   padding-top: 60px;
    padding-bottom: 60px;
 }
 #portfolio h1 {
+   font: 18px/24px 'opensans-bold', sans-serif;
+   text-transform: uppercase;
+   letter-spacing: 1px;
+   text-align: center;
+   padding-bottom: 30px;
+}
+#portfolio h1 span {
+   border-bottom: 3px solid #11ABB0;
+   padding-bottom: 6px;
+}
+#portfolio h2 {
    font: 15px/24px 'opensans-semibold', sans-serif;
    text-transform: uppercase;
    letter-spacing: 1px;
@@ -639,7 +653,7 @@ call-to-action .button {
 /* ------------------------------------------------------------------ */
 
 #testimonials {
-   background: #1F1F1F url(../images/testimonials-bg.jpg) no-repeat center center;
+   background: #1F1F1F url(../images/blurr2.jpg) no-repeat center center;
    background-size: cover !important;
 	-webkit-background-size: cover !important;
    background-attachment: fixed;
@@ -671,7 +685,11 @@ call-to-action .button {
    float: left;
    color: #fff;
 }
-
+#testimonials p.lead {
+   font: 18px/36px 'opensans-light', sans-serif;
+   color: #EBEEEE;
+   padding-right: 3%;
+}
 /*	Blockquotes */
 #testimonials blockquote {
    margin: 0 0px 30px 0px;
@@ -697,7 +715,30 @@ call-to-action .button {
 #testimonials blockquote cite:before { content: "\2014 \0020"; }
 #testimonials blockquote cite a,
 #testimonials blockquote cite a:visited { color: #8B9798; border: none }
+/* Social */
+#testimonials .banner {
+   display: inline-block;
+   vertical-align: middle;
+   margin: 0 auto;
+   width: 85%;
+   padding-bottom: 30px;
+   text-align: center;
+}
 
+#testimonials .banner-text { width: 100%; }
+#testimonials .social {
+   margin: 24px 0;
+   padding: 0;
+   font-size: 30px;
+   text-shadow: 0px 1px 2px rgba(0, 0, 0, .8);
+}
+#testimonials .social li {
+   display: inline-block;
+   margin: 0 15px;
+   padding: 0;
+}
+#testimonials .social li a { color: #fff; }
+#testimonials .social li a:hover { color: #11ABB0; }
 /* Flex Slider
 /* ------------------------------------------------------------------ */
 
@@ -824,6 +865,7 @@ call-to-action .button {
 }
 #contact p.lead {
    font: 18px/36px 'opensans-light', sans-serif;
+   color: #EBEEEE;
    padding-right: 3%;
 }
 #contact .header-col { padding-top: 6px; }
@@ -936,6 +978,12 @@ footer {
 footer a, footer a:visited { color: #525252; }
 footer a:hover, footer a:focus { color: #fff; }
 
+footer p {
+   line-height: 50px;
+   color: #fff;
+   font-family: 'Dosis', sans-serif;
+   font-family: 'Yomogi', cursive;
+}
 /* copyright */
 footer .copyright {
     margin: 0;

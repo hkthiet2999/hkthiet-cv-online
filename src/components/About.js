@@ -11,9 +11,8 @@ export default class About extends Component {
                <img className="profile-pic"  src="images/profilepic.jpg" alt="" />
 
             </div> */}
-            <div className="nine columns main-col">
+            <div>
 
-               <h2>Short Introdution</h2>
                <h3>
                <p>
                {
@@ -25,23 +24,23 @@ export default class About extends Component {
 
                <div className="row">
 
-                  <div className="columns contact-details">
+                  <div className="columns">
 
                   <h2>Contact Details</h2>
                   <h3>
-                  <p className="address">
-       						<span>{resumeData.name}</span>
-                     <br></br>
-       						   <span>
-                     {resumeData.address}
-                    </span>
-                    <br></br>
-                    <span>{resumeData.website}</span>
-                    <br></br>
-                    <span>(+84) 79 862-4951</span>
-       					   </p>
-                  </h3>
-                
+                     
+                     <p className="address">
+                        
+                        <span><i class="fa fa-user"></i>&nbsp;&nbsp;{resumeData.name}</span>
+                        <br></br>
+                        <span> <i class="fa fa-map-marker"></i>&nbsp;&nbsp;{resumeData.address}
+                        </span>
+                        <br></br>
+                        <span> <i class="fa fa-envelope"></i>&nbsp;&nbsp;{resumeData.website}</span>
+                        <br></br>
+                        <span><i class="fa fa-phone"></i>&nbsp;&nbsp;(+84) 79 862-4951</span>
+       					</p>
+                  </h3> 
                   </div>
                </div>
             </div>

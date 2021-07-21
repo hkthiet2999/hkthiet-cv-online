@@ -2,25 +2,30 @@ let resumeData = {
     "imagebaseurl":"",
     "name": "Kien Thiet Hoang",
     "role": "",
-    "linkedinId":"https://www.linkedin.com/in/thi%E1%BA%BFt-ho%C3%A0ng-ki%E1%BA%BFn-4a6929211/",
+    "linkedinId":"https://www.linkedin.com/in/hkthiet99/",
     "skypeid": "Your skypeid",
     "roleDescription": "Welcome to visit my CV online",
     "socialLinks":[
         {
           "name":"linkedin",
-          "url":"https://www.linkedin.com/in/thi%E1%BA%BFt-ho%C3%A0ng-ki%E1%BA%BFn-4a6929211/",
+          "url":"https://www.linkedin.com/in/hkthiet99/",
           "className":"fa fa-linkedin"
         },
         {
           "name":"github",
           "url":"https://github.com/smoothkt4951",
           "className":"fa fa-github"
+        },        {
+          "name":"google",
+          "url":"https://mail.google.com",
+          "className":"fa fa-envelope"
         },
         {
           "name":"facebook",
           "url":"https://www.facebook.com/smooth.kie.thie.0",
           "className":"fa fa-facebook"
         },
+        
       ],
     "aboutme":"Fourth-year student in Software Engineering at Ton Duc Thang University. Aiming to use my knowledge to experience in a dynamic, professional environment. From there, improve my knowledge, personal skills, working attitude and contribute to the company's benefits.",
     "address":"District 7, Ho Chi Minh City, Viet Nam",
