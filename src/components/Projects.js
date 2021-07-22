@@ -22,6 +22,24 @@ import PJ03_image2 from "./images/project03/2.png";
 import PJ03_image3 from "./images/project03/3.png";
 import PJ03_image4 from "./images/project03/4.png";
 import PJ03_image5 from "./images/project03/5.png";
+// 05
+import PJ05_image1 from "./images/project05/1.png";
+import PJ05_image2 from "./images/project05/2.png";
+import PJ05_image3 from "./images/project05/3.png";
+import PJ05_image4 from "./images/project05/4.png";
+import PJ05_image5 from "./images/project05/5.png";
+import PJ05_image6 from "./images/project05/6.png";
+// 06
+import PJ06_image1 from "./images/project06/1.png";
+import PJ06_image2 from "./images/project06/2.png";
+import PJ06_image3 from "./images/project06/3.png";
+import PJ06_image4 from "./images/project06/4.png";
+import PJ06_image5 from "./images/project06/5.png";
+import PJ06_image6 from "./images/project06/6.png";
+import PJ06_image7 from "./images/project06/7.png";
+
+
+
 // end import images
 
 
@@ -93,22 +111,24 @@ const SlideshowProjects04 = () => {
   )
 }
 const SlideshowProjects05 = () => {
+  const PJ05_images = [PJ05_image1, PJ05_image2, PJ05_image3, PJ05_image4, PJ05_image5, PJ05_image6];
   return (
     <div className="slide-container">
       <Zoom scale={0.4}  arrows={true} {...Arrows}>
         {
-          images.map((each, index) => <img key={index} style={{width: "100%"}} src={each} />)
+          PJ05_images.map((each, index) => <img key={index} style={{width: "100%"}} src={each} />)
         }
       </Zoom>
     </div>
   )
 }
 const SlideshowProjects06 = () => {
+  const PJ06_images = [PJ06_image1, PJ06_image2, PJ06_image3, PJ06_image4, PJ06_image5, PJ06_image6 , PJ06_image7];
   return (
     <div className="slide-container">
       <Zoom scale={0.4}  arrows={true} {...Arrows}>
         {
-          images.map((each, index) => <img key={index} style={{width: "100%"}} src={each} />)
+          PJ06_images.map((each, index) => <img key={index} style={{width: "100%"}} src={each} />)
         }
       </Zoom>
     </div>
@@ -328,7 +348,7 @@ export default class Projects extends Component {
           <div className="twelve columns collapsed">
             <h2>E-COMMERCE WEBSITE</h2>
             <div className="three columns">
-              <p><b><i>Technology Used</i></b> <br></br> 
+              <p><b><i>Technologies and Tools</i></b> <br></br> 
               •NodeJS •MongoDB •ReactJS •ExpressJS •Mocha & Chai •NYC Coverage reporter •Swagger API Specification •Docker Compose
               </p>
               <hr></hr>
@@ -396,7 +416,7 @@ export default class Projects extends Component {
           <div className="twelve columns collapsed">
             <h2>Chat application</h2>
             <div className="three columns">
-              <p><b><i>Technology Used</i></b> <br></br> 
+              <p><b><i>Technologies and Tools</i></b> <br></br> 
               •NodeJS •ExpressJS •JavaScript •Socket.io
               </p>
               <hr></hr>
@@ -455,7 +475,7 @@ export default class Projects extends Component {
           <div className="twelve columns collapsed">
             <h2>FILES MANAGEMENT WEBSITE</h2>
             <div className="three columns">
-            <p><b><i>Technology Used</i></b> <br></br> 
+            <p><b><i>Technologies and Tools</i></b> <br></br> 
               •NodeJS •ExpressJS •JavaScript •EJS View Engine
             </p>
               <hr></hr>
@@ -521,10 +541,11 @@ export default class Projects extends Component {
           <div className="twelve columns collapsed">
             <h2>This CV Online with Love</h2>
             <div className="three columns">
-            <p><b><i>Technology Used</i></b> <br></br> 
+            <p><b><i>Technologies and Tools</i></b> <br></br> 
               •ReactJS •Bootstrap4 •HTML/CSS •JavaScript
               </p>
               <hr></hr>
+              <p>The most valuable description is your experience with this CV</p>
               <p><b><i>Source code at  </i></b> <p style={{fontSize: 'x-large'}}> <a href="https://github.com/smoothkt4951/hkthiet-cv-online" target="_blank">GitHub</a> </p></p>            </div>
             <div id="portfolio-wrapper" className="nine columns" style={{display: this.state.hiddenSlideShow}} >
               <SlideshowProjects04/>
@@ -532,19 +553,21 @@ export default class Projects extends Component {
           </div>
         </div>
 
-        <h1 style={{marginTop:'120px'}} ><span>Research</span></h1>
-        {/* <div className="row">
+        
+
+        <h1 style={{marginTop:'120px'}}><span>Research</span></h1>
+        <div className="row">
           <div className="twelve columns collapsed">
-            <h2>KUBERNETES NOTEBOOK </h2>
+            <h2>KUBERNETES NOTEBOOK</h2>
             <div className="three columns">
-            <p><b><i>Technology Used</i></b> <br></br> 
-              •NodeJS •MongoDB •ReactJS •ExpressJS •Mocha & Chai •NYC Coverage reporter •Swagger API Specification •Docker Compose
+            <p><b><i>Technologies and Tools</i></b> <br></br> 
+              •Kubernetes •Docker
               </p>
               <hr></hr>
               <div>
-                <button onClick={this.handleOpenModal}>Description</button>
+                <button onClick={this.handleOpenModal5}>Description</button>
                 <ReactModal 
-                  isOpen={this.state.showModal}
+                  isOpen={this.state.showModal5}
                   contentLabel="Description My Project"
                   style={{
                     overlay: {
@@ -574,43 +597,35 @@ export default class Projects extends Component {
                     }
                   }}
                 >
-                  <h3 style={{textAlign: 'center'}}> E-Commerce Website </h3>
+                  <h3 style={{textAlign: 'center'}}> Kubernetes Notebook </h3>
                   <ul>
-                    <li>•	Developing a web application for merchants. The application helps users manage their personal information and list of products</li>
-                    <li>•	Using JWT token authentication user based on RSA SHA-256 mechanism and login authorization for Facebook, Google. There are also features send emails for user using Nodemailer module</li>
-                    <li>•	Using JWT token authentication user based on RSA SHA-256 mechanism and login authorization for Facebook, Google. There are also features send emails for user using Nodemailer module</li>
-                    <li>•	CRUD features to manage list of products.</li>
-                    <li>•	Sign-in, Sign-up, Sign-out and User Profile for manage user information.</li>
-                    <li>•	Making HTTP calls using Axios and calling multipart API with file upload.</li>
-                    <li>•	Using ExpressJS on the server-side and MongoDB for database management.</li>
-                    <li>•	Using ReactJS with Material UI library on the client-side.</li>
-                    <li>•	API Specification using Swagger 2.0.</li>
-                    <li>•	Unit testing for API using Mocha & Chai and NYC for Coverage reporter.</li>
-                    <li>•	Built Docker Compose for the API, Database and working on how to deploy a complete application</li>
+                    <li>•	Researching about Containerization on Docker, Google Kubernetes for distributed application deployment and try to document what I learn in this GitHub repository and look forward to learning more about Containerization.</li>
+                    <li>•	Architecture of the Kubernetes Cluster and Containers, Workloads.</li>
+                    <li>•	Practie with exercies on Katacoda such as  Deploy Single Node on Kubernetes Cluster, HPA, POD & Service using YAML manifest and practice with ReplicaSet, Deployment.</li>
                   </ul>
-                  <p><b><i>Source code at</i></b> <a href="https://github.com/smoothkt4951/KT-Ecommerce" target="_blank" style={{fontSize: 'x-large'}}>GitHub</a> </p>
-                  <button onClick={this.handleCloseModal}>Close</button>
+                  <p><b><i>Source code at</i></b> <a href="https://github.com/smoothkt4951/kubernetes-notebook" target="_blank" style={{fontSize: 'x-large'}}>GitHub</a> </p>
+                  <button onClick={this.handleCloseModal5}>Close</button>
                 </ReactModal>
               </div>
-              <p><b><i>Source code at  </i></b> <p style={{fontSize: 'x-large'}}> <a href="https://github.com/smoothkt4951/KT-Ecommerce" target="_blank">GitHub</a> </p></p>            </div>
+              <p><b><i>Source code at  </i></b> <p style={{fontSize: 'x-large'}}> <a href="https://github.com/smoothkt4951/kubernetes-notebook" target="_blank">GitHub</a> </p></p></div>
             <div id="portfolio-wrapper" className="nine columns" style={{display: this.state.hiddenSlideShow}}>
               <SlideshowProjects05 />
             </div>
           </div>
         </div>
-
+         
         <div style={{marginTop:'120px'}} className="row">
           <div className="twelve columns collapsed">
             <h2>MASSIVE DATA PROCESSING</h2>
             <div className="three columns">
-            <p><b><i>Technology Used</i></b> <br></br> 
-              •NodeJS •MongoDB •ReactJS •ExpressJS •Mocha & Chai •NYC Coverage reporter •Swagger API Specification •Docker Compose
+            <p><b><i>Technologies and Tools</i></b> <br></br> 
+              •Python •Jupyter Notebook •Machine Learning •PySpark
               </p>
               <hr></hr>
               <div>
-                <button onClick={this.handleOpenModal}>Description</button>
+                <button onClick={this.handleOpenModal6}>Description</button>
                 <ReactModal 
-                  isOpen={this.state.showModal}
+                  isOpen={this.state.showModal6}
                   contentLabel="Description My Project"
                   style={{
                     overlay: {
@@ -640,33 +655,29 @@ export default class Projects extends Component {
                     }
                   }}
                 >
-                  <h3 style={{textAlign: 'center'}}> E-Commerce Website </h3>
+                  <h3 style={{textAlign: 'center'}}>Massive Data Processing</h3>
                   <ul>
-                    <li>•	Developing a web application for merchants. The application helps users manage their personal information and list of products</li>
-                    <li>•	Using JWT token authentication user based on RSA SHA-256 mechanism and login authorization for Facebook, Google. There are also features send emails for user using Nodemailer module</li>
-                    <li>•	Using JWT token authentication user based on RSA SHA-256 mechanism and login authorization for Facebook, Google. There are also features send emails for user using Nodemailer module</li>
-                    <li>•	CRUD features to manage list of products.</li>
-                    <li>•	Sign-in, Sign-up, Sign-out and User Profile for manage user information.</li>
-                    <li>•	Making HTTP calls using Axios and calling multipart API with file upload.</li>
-                    <li>•	Using ExpressJS on the server-side and MongoDB for database management.</li>
-                    <li>•	Using ReactJS with Material UI library on the client-side.</li>
-                    <li>•	API Specification using Swagger 2.0.</li>
-                    <li>•	Unit testing for API using Mocha & Chai and NYC for Coverage reporter.</li>
-                    <li>•	Built Docker Compose for the API, Database and working on how to deploy a complete application</li>
+                    <li>•	Researching about Massive Data Processing and synthesized as an instrumental study at GitHub.</li>
+                    <li>•	Finding Similar Documents Application with Locality Sensitive Hashing in Big Data.
+                    <a href="https://colab.research.google.com/drive/13yTs0VT0wYDV9YzDB9YMIEwu-SKZv-yl?usp=sharing" target="_blank">&nbsp; Colab using PySpark</a>
+                    &nbsp; and <a href="https://colab.research.google.com/drive/1al-1mblo6cCYbNAlHqMY36LNqNOHOC2E?usp=sharing" target="_blank" >Colab not using PySpark</a>
+                    </li> 
+                    <li>•	<a href="https://colab.research.google.com/drive/1llG_cU6rhy6f1Ly15V--qy4ZNftFJZHV?usp=sharing" target="_blank" >Machine Learning &nbsp;</a>
+in PySpark and Recommendation System</li>
                   </ul>
-                  <p><b><i>Source code at</i></b> <a href="https://github.com/smoothkt4951/KT-Ecommerce" target="_blank" style={{fontSize: 'x-large'}}>GitHub</a> </p>
-                  <button onClick={this.handleCloseModal}>Close</button>
+                  <p><b><i>Source code at</i></b> <a href="https://github.com/smoothkt4951/Massive-Data-Processing-Course" target="_blank" style={{fontSize: 'x-large'}}>GitHub</a> </p>
+                  <button onClick={this.handleCloseModal6}>Close</button>
                 </ReactModal>
               </div>
-              <p><b><i>Source code at  </i></b> <p style={{fontSize: 'x-large'}}> <a href="https://github.com/smoothkt4951/KT-Ecommerce" target="_blank">GitHub</a> </p></p>            </div>
+              <p><b><i>Source code at  </i></b> <p style={{fontSize: 'x-large'}}> <a href="https://github.com/smoothkt4951/Massive-Data-Processing-Course" target="_blank">GitHub</a> </p></p>            </div>
             <div id="portfolio-wrapper" className="nine columns" style={{display: this.state.hiddenSlideShow}}>
               <SlideshowProjects06 />
             </div>
           </div>
         </div>
 
-        <h1 style={{marginTop:'120px'}}><span>AI ML</span></h1>
-
+        <h1 style={{marginTop:'120px'}}><span>Artificial Intelligence &#38; Machine Learning</span></h1>
+        
         <div className="row">
           <div className="twelve columns collapsed">
             <h2>Room Ocupancy Detection</h2>
@@ -676,9 +687,9 @@ export default class Projects extends Component {
               </p>
               <hr></hr>
               <div>
-                <button onClick={this.handleOpenModal}>Description</button>
+                <button onClick={this.handleOpenModal7}>Description</button>
                 <ReactModal 
-                  isOpen={this.state.showModal}
+                  isOpen={this.state.showModal7}
                   contentLabel="Description My Project"
                   style={{
                     overlay: {
@@ -710,20 +721,10 @@ export default class Projects extends Component {
                 >
                   <h3 style={{textAlign: 'center'}}> E-Commerce Website </h3>
                   <ul>
-                    <li>•	Developing a web application for merchants. The application helps users manage their personal information and list of products</li>
-                    <li>•	Using JWT token authentication user based on RSA SHA-256 mechanism and login authorization for Facebook, Google. There are also features send emails for user using Nodemailer module</li>
-                    <li>•	Using JWT token authentication user based on RSA SHA-256 mechanism and login authorization for Facebook, Google. There are also features send emails for user using Nodemailer module</li>
-                    <li>•	CRUD features to manage list of products.</li>
-                    <li>•	Sign-in, Sign-up, Sign-out and User Profile for manage user information.</li>
-                    <li>•	Making HTTP calls using Axios and calling multipart API with file upload.</li>
-                    <li>•	Using ExpressJS on the server-side and MongoDB for database management.</li>
-                    <li>•	Using ReactJS with Material UI library on the client-side.</li>
-                    <li>•	API Specification using Swagger 2.0.</li>
-                    <li>•	Unit testing for API using Mocha & Chai and NYC for Coverage reporter.</li>
-                    <li>•	Built Docker Compose for the API, Database and working on how to deploy a complete application</li>
+                  
                   </ul>
                   <p><b><i>Source code at</i></b> <a href="https://github.com/smoothkt4951/KT-Ecommerce" target="_blank" style={{fontSize: 'x-large'}}>GitHub</a> </p>
-                  <button onClick={this.handleCloseModal}>Close</button>
+                  <button onClick={this.handleCloseModal7}>Close</button>
                 </ReactModal>
               </div>
               <p><b><i>Source code at  </i></b> <p style={{fontSize: 'x-large'}}> <a href="https://github.com/smoothkt4951/KT-Ecommerce" target="_blank">GitHub</a> </p></p>            </div>
@@ -733,7 +734,7 @@ export default class Projects extends Component {
           </div>
         </div>
 
-
+        {/*
         <div style={{marginTop:'120px'}} className="row">
           <div className="twelve columns collapsed">
             <h2>Echocardiogram</h2>
