@@ -430,14 +430,25 @@ ul#nav li.current a { color: #F06000; }
    padding-bottom: 6px;
 }
 #portfolio h2 {
-   font: 15px/24px 'opensans-semibold', sans-serif;
+   font: 20px/36px 'opensans-semibold', sans-serif;
    text-transform: uppercase;
    letter-spacing: 1px;
    text-align: center;
    margin-bottom: 48px;
-   color: #95A3A3;
+   color: #0f0f0f;
 }
-
+#portfolio p {
+   line-height: 32px;
+   color: rgb(0, 0, 0);
+   font-size: medium;
+   font-family: 'Dosis', sans-serif;
+   font-family: 'Yomogi', cursive;
+}
+#portfolio hr {
+   width: 100%;
+   margin: 8px auto 16px auto;
+   border-color: #11ABB0
+}
 /* Portfolio Content */
 #portfolio-wrapper .columns { margin-bottom: 36px; }
 .portfolio-item .item-wrap {

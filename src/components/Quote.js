@@ -4,6 +4,7 @@ export default class Quote extends Component {
     let resumeData = this.props.resumeData;
     return (
       <section id="testimonials">
+        <a id="contactme"></a>
         <div className="text-container">
           <div className="row">
             <div className="two columns header-col">

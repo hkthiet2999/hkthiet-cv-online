@@ -42,9 +42,11 @@ export default class About extends Component {
        					</p>
                   </h3> 
                   </div>
+
                </div>
             </div>
          </div>
+         <a id="education"></a>
       </section>
     );
   }
