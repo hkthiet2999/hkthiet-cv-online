@@ -358,7 +358,7 @@ export default class Projects extends Component {
                     }
                   }}
                 >
-                  <h3 style={{textAlign: 'center'}}> E-Commerce Website </h3>
+                  <h3 style={{textAlign: 'center'}}>KT E-Commerce</h3>
                   <ul>
                     <li>•	Developing a web application for merchants. The application helps users manage their personal information and list of products</li>
                     <li>•	Using JWT token authentication user based on RSA SHA-256 mechanism and login authorization for Facebook, Google. There are also features send emails for user using Nodemailer module</li>
@@ -390,7 +390,7 @@ export default class Projects extends Component {
             <h2>Chat application</h2>
             <div className="three columns">
               <p><b><i>Technology Used</i></b> <br></br> 
-              •NodeJS •MongoDB •ReactJS •ExpressJS •Mocha & Chai •NYC Coverage reporter •Swagger API Specification •Docker Compose
+              •NodeJS •ExpressJS •JavaScript •Socket.io
               </p>
               <hr></hr>
               <div>
@@ -426,7 +426,7 @@ export default class Projects extends Component {
                     }
                   }}
                 >
-                  <h3 style={{textAlign: 'center'}}> Chat Appication </h3>
+                  <h3 style={{textAlign: 'center'}}> Chatty</h3>
                   <ul>
                     <li>•	Realtime chat website using Web Socket protocol. The website has features such as Login and select Chatroom, list of users and chat together</li>
                     <li>•	Writing the backend that implements the Web Socket protocol</li>
@@ -446,10 +446,10 @@ export default class Projects extends Component {
 
         <div style={{marginTop:'120px'}} className="row">
           <div className="twelve columns collapsed">
-            <h2>FILES MANAGEMENT  WEBSITE</h2>
+            <h2>FILES MANAGEMENT WEBSITE</h2>
             <div className="three columns">
             <p><b><i>Technology Used</i></b> <br></br> 
-              •NodeJS •MongoDB •ReactJS •ExpressJS •Mocha & Chai •NYC Coverage reporter •Swagger API Specification •Docker Compose
+              •NodeJS •ExpressJS •JavaScript •EJS View Engine
             </p>
               <hr></hr>
               <div>
@@ -485,17 +485,24 @@ export default class Projects extends Component {
                     }
                   }}
                 >
-                  <h3 style={{textAlign: 'center'}}> Files Management Website</h3>
+                  <h3 style={{textAlign: 'center'}}> FileManager </h3>
                   <ul>
                     <li>•	This site used Express and other modules to develop a File Management Website, has features such as: Account Registration, Login, and File/Folder Management.</li>
-                    <li>•	Used MySQL for Database management.</li>
-                    <li>•	Developed the backend API for login, register, logout and upload files in this project.</li>
+                    <li>•	Used MySQL for Database management</li>
+                    <li>•	Used View Engine EJS</li>
+                    <li>•	The backend API for login, register, logout and upload files in this project.</li>
+                    <li>• cookie and session implements for Login</li>
+                    <li>• fs to read and write files and multer to upload</li>
+                    <li>• Security: bcrypt to hashing user password and cross site request forgery token to attack prevention CSRF and rate limit to attack prevention DDOS</li>
+                    <li>• express-form, express-validator to validate data form HTML form.</li>
+                    <li>• flash messsage to send messages between routes.</li>
+                    <li>• ajax/fetch combined with server-side rest api to perform features that need to read/change data from server without reloading the web</li>
                   </ul>
-                  <p><b><i>Source code at</i></b> <a href="https://github.com/smoothkt4951/KT-Ecommerce" target="_blank" style={{fontSize: 'x-large'}}>GitHub</a> </p>
+                  <p><b><i>Source code at</i></b> <a href="https://github.com/smoothkt4951/FileManager" target="_blank" style={{fontSize: 'x-large'}}>GitHub</a> </p>
                   <button onClick={this.handleCloseModal3}>Close</button>
                 </ReactModal>
               </div>
-            <p><b><i>Source code at  </i></b> <p style={{fontSize: 'x-large'}}> <a href="https://github.com/smoothkt4951/KT-Ecommerce" target="_blank">GitHub</a> </p></p>          </div>
+            <p><b><i>Source code at  </i></b> <p style={{fontSize: 'x-large'}}> <a href="https://github.com/smoothkt4951/FileManager" target="_blank">GitHub</a> </p></p>          </div>
             
             <div id="portfolio-wrapper" className="nine columns" style={{display: this.state.hiddenSlideShow}}>
               <SlideshowProjects03 />
@@ -508,10 +515,10 @@ export default class Projects extends Component {
             <h2>This CV Online with Love</h2>
             <div className="three columns">
             <p><b><i>Technology Used</i></b> <br></br> 
-              •ReactJS •BootstrapCSS
+              •ReactJS •Bootstrap4 •HTML/CSS •JavaScript
               </p>
               <hr></hr>
-              <p><b><i>Source code at  </i></b> <p style={{fontSize: 'x-large'}}> <a href="https://github.com/smoothkt4951/KT-Ecommerce" target="_blank">GitHub</a> </p></p>            </div>
+              <p><b><i>Source code at  </i></b> <p style={{fontSize: 'x-large'}}> <a href="https://github.com/smoothkt4951/hkthiet-cv-online" target="_blank">GitHub</a> </p></p>            </div>
             <div id="portfolio-wrapper" className="nine columns" style={{display: this.state.hiddenSlideShow}} >
               <SlideshowProjects04/>
             </div>
