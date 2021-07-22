@@ -2,16 +2,36 @@ import React, { Component } from 'react';
 import { Zoom } from "react-slideshow-image";
 import Dialog from 'react-dialog'
 import ReactModal from 'react-modal';
+
 import image1 from "./images/background1.jpg";
 import image2 from "./images/background2.jpg";
 import image3 from "./images/background3.jpg";
 import image4 from "./images/background4.jpg";
 import image5 from "./images/background5.jpg";
+// images
+// 01
+import PJ01_image1 from "./images/project01/PJ01_image1.jpg";
+import PJ01_image2 from "./images/project01/PJ01_image2.png";
+import PJ01_image3 from "./images/project01/PJ01_image3.jpg";
+// // 02 
+import PJ02_image1 from "./images/project02/1.png";
+import PJ02_image2 from "./images/project02/2.png";
+// 03
+import PJ03_image1 from "./images/project03/1.png";
+import PJ03_image2 from "./images/project03/2.png";
+import PJ03_image3 from "./images/project03/3.png";
+import PJ03_image4 from "./images/project03/4.png";
+import PJ03_image5 from "./images/project03/5.png";
+// end import images
+
 
 // style was imported in index.css
 import "react-slideshow-image/dist/styles.css";
-import { Hidden } from '@material-ui/core';
+
+
 const images = [image1, image2, image3, image4, image5];
+const PJ01_images = [PJ01_image1, PJ01_image2, PJ01_image3];
+
 
 const Arrows = {
   prevArrow: <div style={{width: "30px", marginRight: "-30px"}}><svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" class="bi bi-chevron-left" viewBox="0 0 16 16">
@@ -22,30 +42,14 @@ const Arrows = {
 </svg></div>
 };
 //
-const projects = [
-  {
-    title: "Project 1"
-  },
-  {
-    title: "Project 2"
-  },
-  {
-    title: "Project 3"
-  },
-  {
-    title: "Project 4"
-  },
-  {
-    title: "Project 5"
-  }
-];
+
 //
 const SlideshowProjects01 = () => {
   return (
     <div className="slide-container">
       <Zoom scale={0.4} {...Arrows}>
         {
-          images.map((each, index) => <img key={index} style={{width: "100%"}} src={each} />)
+          PJ01_images.map((each, index) => <img key={index} style={{width: "100%", objectFit: 'contain', height: 'auto', maxHeight: '400px'}} src={each} />)
         }
       </Zoom>
     </div>
@@ -53,22 +57,25 @@ const SlideshowProjects01 = () => {
 }
 
 const SlideshowProjects02 = () => {
+  const PJ02_images = [ PJ02_image1,  PJ02_image2];
   return (
     <div className="slide-container">
       <Zoom scale={0.4}  arrows={true} {...Arrows}>
         {
-          images.map((each, index) => <img key={index} style={{width: "100%"}} src={each} />)
+          PJ02_images.map((each, index) => <img key={index} style={{width: "100%", objectFit: 'contain', height: 'auto', maxHeight: '400px'}} src={each} />)
         }
       </Zoom>
     </div>
   )
 }
 const SlideshowProjects03 = () => {
+
+  const PJ03_images = [PJ03_image1, PJ03_image2, PJ03_image3, PJ03_image4, PJ03_image5];
   return (
     <div className="slide-container">
       <Zoom scale={0.4}  arrows={true} {...Arrows}>
         {
-          images.map((each, index) => <img key={index} style={{width: "100%"}} src={each} />)
+          PJ03_images.map((each, index) => <img key={index} style={{width: "100%", objectFit: 'contain', height: 'auto', maxHeight: '400px'}} src={each} />)
         }
       </Zoom>
     </div>
