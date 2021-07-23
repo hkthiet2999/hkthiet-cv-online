@@ -3,16 +3,30 @@ import { Zoom } from "react-slideshow-image";
 import Dialog from 'react-dialog'
 import ReactModal from 'react-modal';
 
-import image1 from "./images/background1.jpg";
-import image2 from "./images/background2.jpg";
-import image3 from "./images/background3.jpg";
-import image4 from "./images/background4.jpg";
-import image5 from "./images/background5.jpg";
+// import image1 from "./images/background1.jpg";
+// import image2 from "./images/background2.jpg";
+// import image3 from "./images/background3.jpg";
+// import image4 from "./images/background4.jpg";
+// import image5 from "./images/background5.jpg";
 // images
 // 01
-import PJ01_image1 from "./images/project01/PJ01_image1.jpg";
-import PJ01_image2 from "./images/project01/PJ01_image2.png";
-import PJ01_image3 from "./images/project01/PJ01_image3.jpg";
+import PJ01_image1 from "./images/project01/1.png";
+import PJ01_image2 from "./images/project01/2.png";
+import PJ01_image3 from "./images/project01/3.png";
+import PJ01_image4 from "./images/project01/4.png";
+import PJ01_image5 from "./images/project01/5.png";
+import PJ01_image6 from "./images/project01/6.png";
+import PJ01_image7 from "./images/project01/7.png";
+import PJ01_image8 from "./images/project01/8.png";
+import PJ01_image9 from "./images/project01/9.png";
+import PJ01_image10  from "./images/project01/10.png";
+import PJ01_image11 from "./images/project01/11.png";
+import PJ01_image12 from "./images/project01/12.png";
+import PJ01_image13 from "./images/project01/13.png";
+import PJ01_image14 from "./images/project01/14.png";
+
+
+
 // // 02 
 import PJ02_image1 from "./images/project02/1.png";
 import PJ02_image2 from "./images/project02/2.png";
@@ -22,6 +36,11 @@ import PJ03_image2 from "./images/project03/2.png";
 import PJ03_image3 from "./images/project03/3.png";
 import PJ03_image4 from "./images/project03/4.png";
 import PJ03_image5 from "./images/project03/5.png";
+// 04
+import PJ04_image1 from "./images/project04/1.png";
+import PJ04_image2 from "./images/project04/2.png";
+import PJ04_image3 from "./images/project04/3.png";
+import PJ04_image4 from "./images/project04/4.png";
 // 05
 import PJ05_image1 from "./images/project05/1.png";
 import PJ05_image2 from "./images/project05/2.png";
@@ -37,8 +56,36 @@ import PJ06_image4 from "./images/project06/4.png";
 import PJ06_image5 from "./images/project06/5.png";
 import PJ06_image6 from "./images/project06/6.png";
 import PJ06_image7 from "./images/project06/7.png";
+// 07
+import PJ07_image1 from "./images/project07/1.png";
+import PJ07_image2 from "./images/project07/2.png";
+import PJ07_image3 from "./images/project07/3.png";
+import PJ07_image4 from "./images/project07/4.png";
+import PJ07_image5 from "./images/project07/5.png";
+import PJ07_image6 from "./images/project07/6.png";
+import PJ07_image7 from "./images/project07/7.png";
+import PJ07_image8 from "./images/project07/8.png";
+// 08
+import PJ08_image1 from "./images/project08/1.png";
+import PJ08_image2 from "./images/project08/2.png";
+import PJ08_image3 from "./images/project08/3.png";
+import PJ08_image4 from "./images/project08/4.png";
+import PJ08_image5 from "./images/project08/5.png";
+// 09
+import PJ09_image1 from "./images/project09/1.png";
+import PJ09_image2 from "./images/project09/2.png";
+// 10
+import PJ10_image1 from "./images/project10/1.png";
+import PJ10_image2 from "./images/project10/2.png";
+import PJ10_image3 from "./images/project10/3.png";
+import PJ10_image4 from "./images/project10/4.png";
+import PJ10_image5 from "./images/project10/5.png";
+import PJ10_image6 from "./images/project10/6.png";
 
-
+// 11
+import PJ11_image1 from "./images/project11/1.png";
+import PJ11_image2 from "./images/project11/2.png";
+import PJ11_image3 from "./images/project11/3.png";
 
 // end import images
 
@@ -47,9 +94,7 @@ import PJ06_image7 from "./images/project06/7.png";
 import "react-slideshow-image/dist/styles.css";
 
 
-const images = [image1, image2, image3, image4, image5];
-const PJ01_images = [PJ01_image1, PJ01_image2, PJ01_image3];
-
+// const images = [image1, image2, image3, image4, image5];
 
 const Arrows = {
   prevArrow: <div style={{width: "30px", marginRight: "-30px"}}><svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" class="bi bi-chevron-left" viewBox="0 0 16 16">
@@ -63,6 +108,8 @@ const Arrows = {
 
 //
 const SlideshowProjects01 = () => {
+  const PJ01_images = [PJ01_image1, PJ01_image2, PJ01_image3, PJ01_image4, PJ01_image5, PJ01_image6, PJ01_image7, PJ01_image8, PJ01_image9, PJ01_image10, PJ01_image11, PJ01_image12, PJ01_image13, PJ01_image14];
+
   return (
     <div className="slide-container">
       <Zoom scale={0.4} {...Arrows}>
@@ -100,11 +147,12 @@ const SlideshowProjects03 = () => {
   )
 }
 const SlideshowProjects04 = () => {
+  const PJ04_images = [PJ04_image1, PJ04_image2, PJ04_image3, PJ04_image4];
   return (
     <div className="slide-container">
       <Zoom scale={0.4}  arrows={true} {...Arrows}>
         {
-          images.map((each, index) => <img key={index} style={{width: "100%"}} src={each} />)
+          PJ04_images.map((each, index) => <img key={index} style={{width: "100%", objectFit: 'contain', height: 'auto', maxHeight: '400px'}} src={each} />)
         }
       </Zoom>
     </div>
@@ -116,74 +164,83 @@ const SlideshowProjects05 = () => {
     <div className="slide-container">
       <Zoom scale={0.4}  arrows={true} {...Arrows}>
         {
-          PJ05_images.map((each, index) => <img key={index} style={{width: "100%"}} src={each} />)
+          PJ05_images.map((each, index) => <img key={index} style={{width: "100%", objectFit: 'contain', height: 'auto', maxHeight: '400px'}} src={each} />)
         }
       </Zoom>
     </div>
   )
 }
 const SlideshowProjects06 = () => {
-  const PJ06_images = [PJ06_image1, PJ06_image2, PJ06_image3, PJ06_image4, PJ06_image5, PJ06_image6 , PJ06_image7];
+  const PJ06_images = [PJ06_image1, PJ06_image2, PJ06_image3, PJ06_image4, PJ06_image5, PJ06_image6 , PJ06_image7 ];
   return (
     <div className="slide-container">
       <Zoom scale={0.4}  arrows={true} {...Arrows}>
         {
-          PJ06_images.map((each, index) => <img key={index} style={{width: "100%"}} src={each} />)
+          PJ06_images.map((each, index) => <img key={index} style={{width: "100%", objectFit: 'contain', height: 'auto', maxHeight: '400px'}} src={each} />)
         }
       </Zoom>
     </div>
   )
 }
 const SlideshowProjects07 = () => {
+  const PJ07_images = [PJ07_image1, PJ07_image2, PJ07_image3, PJ07_image4, PJ07_image5, PJ07_image6 , PJ07_image7, PJ07_image8];
+
   return (
     <div className="slide-container">
       <Zoom scale={0.4}  arrows={true} {...Arrows}>
         {
-          images.map((each, index) => <img key={index} style={{width: "100%"}} src={each} />)
+          PJ07_images.map((each, index) => <img key={index} style={{width: "100%", objectFit: 'contain', height: 'auto', maxHeight: '400px'}} src={each} />)
         }
       </Zoom>
     </div>
   )
 }
 const SlideshowProjects08 = () => {
+  const PJ08_images = [PJ08_image1, PJ08_image2, PJ08_image3, PJ08_image4, PJ08_image5];
+
   return (
     <div className="slide-container">
       <Zoom scale={0.4}  arrows={true} {...Arrows}>
         {
-          images.map((each, index) => <img key={index} style={{width: "100%"}} src={each} />)
+          PJ08_images.map((each, index) => <img key={index} style={{width: "100%", objectFit: 'contain', height: 'auto', maxHeight: '400px'}} src={each} />)
         }
       </Zoom>
     </div>
   )
 }
 const SlideshowProjects09 = () => {
+  const PJ09_images = [PJ09_image1, PJ09_image2];
+
   return (
     <div className="slide-container">
       <Zoom scale={0.4}  arrows={true} {...Arrows}>
         {
-          images.map((each, index) => <img key={index} style={{width: "100%"}} src={each} />)
+          PJ09_images.map((each, index) => <img key={index} style={{width: "100%", objectFit: 'contain', height: 'auto', maxHeight: '400px'}} src={each} />)
         }
       </Zoom>
     </div>
   )
 }
 const SlideshowProjects010 = () => {
+  const PJ10_images = [PJ10_image1, PJ10_image2, PJ10_image3, PJ10_image4, PJ10_image5, PJ10_image6];
   return (
     <div className="slide-container">
       <Zoom scale={0.4}  arrows={true} {...Arrows}>
         {
-          images.map((each, index) => <img key={index} style={{width: "100%"}} src={each} />)
+          PJ10_images.map((each, index) => <img key={index} style={{width: "100%", objectFit: 'contain', height: 'auto', maxHeight: '400px'}} src={each} />)
         }
       </Zoom>
     </div>
   )
 }
 const SlideshowProjects011 = () => {
+  const PJ11_images = [PJ11_image1, PJ11_image2, PJ11_image3];
+
   return (
     <div className="slide-container">
       <Zoom scale={0.4}  arrows={true} {...Arrows}>
         {
-          images.map((each, index) => <img key={index} style={{width: "100%"}} src={each} />)
+          PJ11_images.map((each, index) => <img key={index} style={{width: "100%", objectFit: 'contain', height: 'auto', maxHeight: '400px'}} src={each} />)
         }
       </Zoom>
     </div>
@@ -215,6 +272,8 @@ export default class Projects extends Component {
       showModal8: false,
       showModal9: false,
       showModal10: false,
+      showModal11: false,
+
     };
     
     this.handleOpenModal1 = this.handleOpenModal1.bind(this);
@@ -236,7 +295,7 @@ export default class Projects extends Component {
     this.handleCloseModal6 = this.handleCloseModal6.bind(this);
 
     this.handleOpenModal7 = this.handleOpenModal7.bind(this);
-    this.handleCloseModal = this.handleCloseModal7.bind(this);
+    this.handleCloseModal7 = this.handleCloseModal7.bind(this);
 
     this.handleOpenModal8 = this.handleOpenModal8.bind(this);
     this.handleCloseModal8 = this.handleCloseModal8.bind(this);
@@ -246,6 +305,9 @@ export default class Projects extends Component {
 
     this.handleOpenModal10 = this.handleOpenModal10.bind(this);
     this.handleCloseModal10 = this.handleCloseModal10.bind(this);
+
+    this.handleOpenModal11 = this.handleOpenModal11.bind(this);
+    this.handleCloseModal11 = this.handleCloseModal11.bind(this);
   }
   // 01 ecommerce
   handleOpenModal1 () {
@@ -295,7 +357,7 @@ export default class Projects extends Component {
   handleCloseModal6 () {
     this.setState({ hiddenSlideShow: 'inline', showModal6: false});
   }
-  // 07 Room Ocupancy
+  // 07 Room Occupancy
   handleOpenModal7 () {
     this.setState({ showModal7: true , hiddenSlideShow: 'none'});
   }
@@ -346,7 +408,8 @@ export default class Projects extends Component {
         <h1><span>Web Application</span></h1>
         <div  className="row">
           <div className="twelve columns collapsed">
-            <h2>E-COMMERCE WEBSITE</h2>
+            <h2>E-COMMERCE WEBSITE <p><i>May 2021 - Present</i></p></h2>
+            
             <div className="three columns">
               <p><b><i>Technologies and Tools</i></b> <br></br> 
               •NodeJS •MongoDB •ReactJS •ExpressJS •Mocha & Chai •NYC Coverage reporter •Swagger API Specification •Docker Compose
@@ -389,15 +452,14 @@ export default class Projects extends Component {
                   <ul>
                     <li>•	Developing a web application for merchants. The application helps users manage their personal information and list of products</li>
                     <li>•	Using JWT token authentication user based on RSA SHA-256 mechanism and login authorization for Facebook, Google. There are also features send emails for user using Nodemailer module</li>
-                    <li>•	Using JWT token authentication user based on RSA SHA-256 mechanism and login authorization for Facebook, Google. There are also features send emails for user using Nodemailer module</li>
                     <li>•	CRUD features to manage list of products.</li>
                     <li>•	Sign-in, Sign-up, Sign-out and User Profile for manage user information.</li>
                     <li>•	Making HTTP calls using Axios and calling multipart API with file upload.</li>
                     <li>•	Using ExpressJS on the server-side and MongoDB for database management.</li>
                     <li>•	Using ReactJS with Material UI library on the client-side.</li>
                     <li>•	API Specification using Swagger 2.0.</li>
-                    <li>•	Unit testing for API using Mocha & Chai and NYC for Coverage reporter.</li>
-                    <li>•	Built Docker Compose for the API, Database and working on how to deploy a complete application</li>
+                    <li>•	Unit testing for API using Mocha & Chai and NYC for <a href="https://smoothkt4951.github.io/KT-Ecommerce/" target="_blank">Coverage reporter</a></li>
+                    <li>•	Built Docker Compose for the API, Database at <a href="https://hub.docker.com/r/kienthiet/backend-api-db" target="_blank">kienthiet/backend-api-db</a> and working on how to deploy a complete application and pull by command: docker pull kienthiet/backend-api-db</li>
                   </ul>
                   <p><b><i>Source code at</i></b> <a href="https://github.com/smoothkt4951/KT-Ecommerce" target="_blank" style={{fontSize: 'x-large'}}>GitHub</a> </p>
                   <button onClick={this.handleCloseModal1}>Close</button>
@@ -414,7 +476,7 @@ export default class Projects extends Component {
         
         <div style={{marginTop:'120px'}} className="row">
           <div className="twelve columns collapsed">
-            <h2>Chat application</h2>
+            <h2>Chat application <p><i>MARCH, 2021 - MAY, 2021</i></p></h2>
             <div className="three columns">
               <p><b><i>Technologies and Tools</i></b> <br></br> 
               •NodeJS •ExpressJS •JavaScript •Socket.io
@@ -473,7 +535,7 @@ export default class Projects extends Component {
 
         <div style={{marginTop:'120px'}} className="row">
           <div className="twelve columns collapsed">
-            <h2>FILES MANAGEMENT WEBSITE</h2>
+            <h2>FILES MANAGEMENT WEBSITE <p><i>February, 2021 - APRIL, 2021</i></p></h2>
             <div className="three columns">
             <p><b><i>Technologies and Tools</i></b> <br></br> 
               •NodeJS •ExpressJS •JavaScript •EJS View Engine
@@ -539,7 +601,7 @@ export default class Projects extends Component {
 
         <div style={{marginTop:'120px'}} className="row">
           <div className="twelve columns collapsed">
-            <h2>This CV Online with Love</h2>
+            <h2>This CV Online with ❤️ </h2>
             <div className="three columns">
             <p><b><i>Technologies and Tools</i></b> <br></br> 
               •ReactJS •Bootstrap4 •HTML/CSS •JavaScript
@@ -558,7 +620,7 @@ export default class Projects extends Component {
         <h1 style={{marginTop:'120px'}}><span>Research</span></h1>
         <div className="row">
           <div className="twelve columns collapsed">
-            <h2>KUBERNETES NOTEBOOK</h2>
+            <h2>KUBERNETES NOTEBOOK <p><i>MAY, 2021 - PRESENT</i></p></h2>
             <div className="three columns">
             <p><b><i>Technologies and Tools</i></b> <br></br> 
               •Kubernetes •Docker
@@ -616,7 +678,7 @@ export default class Projects extends Component {
          
         <div style={{marginTop:'120px'}} className="row">
           <div className="twelve columns collapsed">
-            <h2>MASSIVE DATA PROCESSING</h2>
+            <h2>MASSIVE DATA PROCESSING <p><i>MARch, 2021 - MAY, 2021</i></p></h2>
             <div className="three columns">
             <p><b><i>Technologies and Tools</i></b> <br></br> 
               •Python •Jupyter Notebook •Machine Learning •PySpark
@@ -680,10 +742,10 @@ in PySpark and Recommendation System</li>
         
         <div className="row">
           <div className="twelve columns collapsed">
-            <h2>Room Ocupancy Detection</h2>
+            <h2>Room Occupancy Prediction Model <p><i>April, 2021 - May,2021</i></p></h2>
             <div className="three columns">
-            <p><b><i>Technology Used</i></b> <br></br> 
-              •NodeJS •MongoDB •ReactJS •ExpressJS •Mocha & Chai •NYC Coverage reporter •Swagger API Specification •Docker Compose
+            <p><b><i>Technologies and Tools</i></b> <br></br> 
+              •Python •Jupyter Notebook •Keras •SciKitLearn • Neural Network (FNN, RNN-LSTM)
               </p>
               <hr></hr>
               <div>
@@ -719,34 +781,36 @@ in PySpark and Recommendation System</li>
                     }
                   }}
                 >
-                  <h3 style={{textAlign: 'center'}}> E-Commerce Website </h3>
+                  <h3 style={{textAlign: 'center'}}>Room Occupancy Prediction Model</h3>
                   <ul>
-                  
+                    <li>• Neural Network (FNN, RNN-LSTM) for prediction from Occupancy Detection Datasets whether or not the office is inhabited</li>
+                    <li>• Data Visualization for Occupancy Dataset in <a href="https://archive.ics.uci.edu/ml/datasets/Occupancy+Detection+" target="_blank"> UCI</a></li>
+                    <li>• Jupyter Notebook: <a href="https://colab.research.google.com/drive/1MgAODv_OovEkrHsNuoZ9mGNeFtMHAgNz?usp=sharing" target="_blank">Google Colab</a> or <a href="https://www.kaggle.com/ktsmooth/occupancy-detection-using-fnn-lstm" target="_blank">Kaggle</a> or <a href="https://github.com/smoothkt4951/Room-Occupancy-Detection-Models/blob/main/final_ML_Occupancy.ipynb" target="_blank">GitHub</a></li>
                   </ul>
-                  <p><b><i>Source code at</i></b> <a href="https://github.com/smoothkt4951/KT-Ecommerce" target="_blank" style={{fontSize: 'x-large'}}>GitHub</a> </p>
+                  <p><b><i>Source code at</i></b> <a href="https://github.com/smoothkt4951/Room-Occupancy-Detection-Models" target="_blank" style={{fontSize: 'x-large'}}>GitHub</a> </p>
                   <button onClick={this.handleCloseModal7}>Close</button>
                 </ReactModal>
               </div>
-              <p><b><i>Source code at  </i></b> <p style={{fontSize: 'x-large'}}> <a href="https://github.com/smoothkt4951/KT-Ecommerce" target="_blank">GitHub</a> </p></p>            </div>
+              <p><b><i>Source code at  </i></b> <p style={{fontSize: 'x-large'}}> <a href="https://github.com/smoothkt4951/Room-Occupancy-Detection-Models" target="_blank">GitHub</a> or <a href="https://colab.research.google.com/drive/1MgAODv_OovEkrHsNuoZ9mGNeFtMHAgNz?usp=sharing" target="_blank">Google Colab</a></p></p>            </div>
             <div id="portfolio-wrapper" className="nine columns" style={{display: this.state.hiddenSlideShow}}>
               <SlideshowProjects07 />
             </div>
           </div>
         </div>
 
-        {/*
+        
         <div style={{marginTop:'120px'}} className="row">
           <div className="twelve columns collapsed">
-            <h2>Echocardiogram</h2>
+            <h2>Echocardiogram Prediction Model <p> <i> January 2021 - March, 2021</i></p></h2>
             <div className="three columns">
-            <p><b><i>Technology Used</i></b> <br></br> 
-              •NodeJS •MongoDB •ReactJS •ExpressJS •Mocha & Chai •NYC Coverage reporter •Swagger API Specification •Docker Compose
+            <p><b><i>Technologies and Tools</i></b> <br></br> 
+            •Python •Jupyter Notebook •SciKitLearn •k-Nearest Neighbor •Naive Bayes •Support Vector Machine •Random Forest Classifier
               </p>
               <hr></hr>
               <div>
-                <button onClick={this.handleOpenModal}>Description</button>
+                <button onClick={this.handleOpenModal8}>Description</button>
                 <ReactModal 
-                  isOpen={this.state.showModal}
+                  isOpen={this.state.showModal8}
                   contentLabel="Description My Project"
                   style={{
                     overlay: {
@@ -776,44 +840,38 @@ in PySpark and Recommendation System</li>
                     }
                   }}
                 >
-                  <h3 style={{textAlign: 'center'}}> E-Commerce Website </h3>
+                  <h3 style={{textAlign: 'center'}}>Echocardiogram Prediction Model</h3>
                   <ul>
-                    <li>•	Developing a web application for merchants. The application helps users manage their personal information and list of products</li>
-                    <li>•	Using JWT token authentication user based on RSA SHA-256 mechanism and login authorization for Facebook, Google. There are also features send emails for user using Nodemailer module</li>
-                    <li>•	Using JWT token authentication user based on RSA SHA-256 mechanism and login authorization for Facebook, Google. There are also features send emails for user using Nodemailer module</li>
-                    <li>•	CRUD features to manage list of products.</li>
-                    <li>•	Sign-in, Sign-up, Sign-out and User Profile for manage user information.</li>
-                    <li>•	Making HTTP calls using Axios and calling multipart API with file upload.</li>
-                    <li>•	Using ExpressJS on the server-side and MongoDB for database management.</li>
-                    <li>•	Using ReactJS with Material UI library on the client-side.</li>
-                    <li>•	API Specification using Swagger 2.0.</li>
-                    <li>•	Unit testing for API using Mocha & Chai and NYC for Coverage reporter.</li>
-                    <li>•	Built Docker Compose for the API, Database and working on how to deploy a complete application</li>
+                    <li>• I built Machine Learning models ( k-Nearest Neighbor, Naive Bayes,Support Vector Machine, Random Forest Classifier) for prediction from Echocardiogram Datasets whether or not the patient will survive at least one year.</li>
+                    <li>• Source code: <a href=" https://github.com/smoothkt4951/Echocardiogram-Datasets-Prediction-Model/blob/main/main.ipynb" target="_blank">main.ipynb</a> </li>
+                    <li>• Presentation about Overfiting Problems</li>
+
+
                   </ul>
-                  <p><b><i>Source code at</i></b> <a href="https://github.com/smoothkt4951/KT-Ecommerce" target="_blank" style={{fontSize: 'x-large'}}>GitHub</a> </p>
-                  <button onClick={this.handleCloseModal}>Close</button>
+                  <p><b><i>Source code at</i></b> <a href="https://github.com/smoothkt4951/Echocardiogram-Datasets-Prediction-Model" target="_blank" style={{fontSize: 'x-large'}}>GitHub</a> </p>
+                  <button onClick={this.handleCloseModal8}>Close</button>
                 </ReactModal>
               </div>
-              <p><b><i>Source code at  </i></b> <p style={{fontSize: 'x-large'}}> <a href="https://github.com/smoothkt4951/KT-Ecommerce" target="_blank">GitHub</a> </p></p>            </div>
+              <p><b><i>Source code at  </i></b> <p style={{fontSize: 'x-large'}}> <a href="https://github.com/smoothkt4951/Echocardiogram-Datasets-Prediction-Model" target="_blank">GitHub</a> </p></p>            </div>
             <div id="portfolio-wrapper" className="nine columns" style={{display: this.state.hiddenSlideShow}}>
               <SlideshowProjects08 />
             </div>
           </div>
         </div>
 
-
+        
         <div style={{marginTop:'120px'}} className="row">
           <div className="twelve columns collapsed">
-            <h2>Number Bounding Boxes Detection</h2>
+            <h2>Number Bounding Boxes Detection <p><i>October, 2020 - November, 2020</i></p></h2>
             <div className="three columns">
-            <p><b><i>Technology Used</i></b> <br></br> 
-              •NodeJS •MongoDB •ReactJS •ExpressJS •Mocha & Chai •NYC Coverage reporter •Swagger API Specification •Docker Compose
+            <p><b><i>Technologies and Tools</i></b> <br></br> 
+            •Python •OpenCV
               </p>
               <hr></hr>
               <div>
-                <button onClick={this.handleOpenModal}>Description</button>
+                <button onClick={this.handleOpenModal9}>Description</button>
                 <ReactModal 
-                  isOpen={this.state.showModal}
+                  isOpen={this.state.showModal9}
                   contentLabel="Description My Project"
                   style={{
                     overlay: {
@@ -843,45 +901,36 @@ in PySpark and Recommendation System</li>
                     }
                   }}
                 >
-                  <h3 style={{textAlign: 'center'}}> E-Commerce Website </h3>
+                  <h3 style={{textAlign: 'center'}}>  </h3>
                   <ul>
-                    <li>•	Developing a web application for merchants. The application helps users manage their personal information and list of products</li>
-                    <li>•	Using JWT token authentication user based on RSA SHA-256 mechanism and login authorization for Facebook, Google. There are also features send emails for user using Nodemailer module</li>
-                    <li>•	Using JWT token authentication user based on RSA SHA-256 mechanism and login authorization for Facebook, Google. There are also features send emails for user using Nodemailer module</li>
-                    <li>•	CRUD features to manage list of products.</li>
-                    <li>•	Sign-in, Sign-up, Sign-out and User Profile for manage user information.</li>
-                    <li>•	Making HTTP calls using Axios and calling multipart API with file upload.</li>
-                    <li>•	Using ExpressJS on the server-side and MongoDB for database management.</li>
-                    <li>•	Using ReactJS with Material UI library on the client-side.</li>
-                    <li>•	API Specification using Swagger 2.0.</li>
-                    <li>•	Unit testing for API using Mocha & Chai and NYC for Coverage reporter.</li>
-                    <li>•	Built Docker Compose for the API, Database and working on how to deploy a complete application</li>
+                    <li>•	I used OpenCV to detection number bounding boxes from a noise image</li>
                   </ul>
-                  <p><b><i>Source code at</i></b> <a href="https://github.com/smoothkt4951/KT-Ecommerce" target="_blank" style={{fontSize: 'x-large'}}>GitHub</a> </p>
-                  <button onClick={this.handleCloseModal}>Close</button>
+                  <p><b><i>Source code at</i></b> <a href="https://github.com/smoothkt4951/Number-Bounding-Boxes-Detection" target="_blank" style={{fontSize: 'x-large'}}>GitHub</a> </p>
+                  <button onClick={this.handleCloseModal9}>Close</button>
                 </ReactModal>
               </div>
-              <p><b><i>Source code at  </i></b> <p style={{fontSize: 'x-large'}}> <a href="https://github.com/smoothkt4951/KT-Ecommerce" target="_blank">GitHub</a> </p></p>            </div>
+              <p><b><i>Source code at  </i></b> <p style={{fontSize: 'x-large'}}> <a href="https://github.com/smoothkt4951/Number-Bounding-Boxes-Detection" target="_blank">GitHub</a> </p></p>            </div>
             <div id="portfolio-wrapper" className="nine columns" style={{display: this.state.hiddenSlideShow}}>
               <SlideshowProjects09 />
             </div>
           </div>
         </div>
 
+        
         <h1 style={{marginTop:'120px'}}><span>Others</span></h1>
 
         <div className="row">
           <div className="twelve columns collapsed">
-            <h2>Cralwing Viet Nam News</h2>
+            <h2>Cralwing Viet Nam News <p><i>MARCH 2021 </i></p></h2>
             <div className="three columns">
-            <p><b><i>Technology Used</i></b> <br></br> 
-              •NodeJS •MongoDB •ReactJS •ExpressJS •Mocha & Chai •NYC Coverage reporter •Swagger API Specification •Docker Compose
+            <p><b><i>Technologies and Tools</i></b> <br></br> 
+              •Python •Beautifulsoup4 •Newspaper3k
               </p>
               <hr></hr>
               <div>
-                <button onClick={this.handleOpenModal}>Description</button>
+                <button onClick={this.handleOpenModal10}>Description</button>
                 <ReactModal 
-                  isOpen={this.state.showModal}
+                  isOpen={this.state.showModal10}
                   contentLabel="Description My Project"
                   style={{
                     overlay: {
@@ -911,15 +960,15 @@ in PySpark and Recommendation System</li>
                     }
                   }}
                 >
-                  <h3 style={{textAlign: 'center'}}> E-Commerce Website </h3>
+                  <h3 style={{textAlign: 'center'}}> Cralwing Viet Nam News</h3>
                   <ul>
-                    <li>•	Developing a web application for merchants. The application helps users manage their personal information and list of products</li>
+                    <li>•	Crawling data form vnexpress, thanhnien, vietnamnet</li>
                   </ul>
-                  <p><b><i>Source code at</i></b> <a href="https://github.com/smoothkt4951/KT-Ecommerce" target="_blank" style={{fontSize: 'x-large'}}>GitHub</a> </p>
-                  <button onClick={this.handleCloseModal}>Close</button>
+                  <p><b><i>Source code at</i></b> <a href="https://github.com/smoothkt4951/crawling-VietNam-News" target="_blank" style={{fontSize: 'x-large'}}>GitHub</a> </p>
+                  <button onClick={this.handleCloseModal10}>Close</button>
                 </ReactModal>
               </div>
-              <p><b><i>Source code at  </i></b> <p style={{fontSize: 'x-large'}}> <a href="https://github.com/smoothkt4951/KT-Ecommerce" target="_blank">GitHub</a> </p></p>            </div>
+              <p><b><i>Source code at  </i></b> <p style={{fontSize: 'x-large'}}> <a href="https://github.com/smoothkt4951/crawling-VietNam-News" target="_blank">GitHub</a> </p></p>            </div>
             <div id="portfolio-wrapper" className="nine columns" style={{display: this.state.hiddenSlideShow}}>
               <SlideshowProjects010 />
             </div>
@@ -928,16 +977,16 @@ in PySpark and Recommendation System</li>
 
         <div style={{marginTop:'120px'}} className="row">
           <div className="twelve columns collapsed">
-            <h2>Soduku Problem</h2>
+            <h2>Soduku Problem <p><i>February 2020 - March 2020</i></p></h2>
             <div className="three columns">
-            <p><b><i>Technology Used</i></b> <br></br> 
-              •NodeJS •MongoDB •ReactJS •ExpressJS •Mocha & Chai •NYC Coverage reporter •Swagger API Specification •Docker Compose
+            <p><b><i>Technologies and Tools</i></b> <br></br> 
+              •Python
               </p>
               <hr></hr>
               <div>
-                <button onClick={this.handleOpenModal}>Description</button>
+                <button onClick={this.handleOpenModal11}>Description</button>
                 <ReactModal 
-                  isOpen={this.state.showModal}
+                  isOpen={this.state.showModal11}
                   contentLabel="Description My Project"
                   style={{
                     overlay: {
@@ -967,20 +1016,20 @@ in PySpark and Recommendation System</li>
                     }
                   }}
                 >
-                  <h3 style={{textAlign: 'center'}}> E-Commerce Website </h3>
+                  <h3 style={{textAlign: 'center'}}> Sudoku </h3>
                   <ul>
-                    <li>•	Developing a web application for merchants. The application helps users manage their personal information and list of products</li>
+                    <li>•	Build Sudoku puzzles using permutation and output them to file using Python</li>
                   </ul>
-                  <p><b><i>Source code at</i></b> <a href="https://github.com/smoothkt4951/KT-Ecommerce" target="_blank" style={{fontSize: 'x-large'}}>GitHub</a> </p>
-                  <button onClick={this.handleCloseModal}>Close</button>
+                  <p><b><i>Source code at</i></b> <a href="https://github.com/smoothkt4951/Sudoku-Problem" target="_blank" style={{fontSize: 'x-large'}}>GitHub</a> </p>
+                  <button onClick={this.handleCloseModal11}>Close</button>
                 </ReactModal>
               </div>
-              <p><b><i>Source code at  </i></b> <p style={{fontSize: 'x-large'}}> <a href="https://github.com/smoothkt4951/KT-Ecommerce" target="_blank">GitHub</a> </p></p>            </div>
+              <p><b><i>Source code at  </i></b> <p style={{fontSize: 'x-large'}}> <a href="https://github.com/smoothkt4951/Sudoku-Problem" target="_blank">GitHub</a> </p></p>            </div>
             <div id="portfolio-wrapper" className="nine columns" style={{display: this.state.hiddenSlideShow}}>
               <SlideshowProjects011 />
             </div>
           </div>
-        </div> */}
+        </div> 
 
   </section>
         );

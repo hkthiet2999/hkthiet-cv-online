@@ -28,7 +28,7 @@ export default class Quote extends Component {
           <div className="row section-head">
             <div className="ten columns">
               <p className="lead">
-              Finally, I would like to say "Thank You" for spent time to look at my CV profile. You're a flower on earth, let's make your life beautiful and meaningful
+              Finally, I would like to say "Thank You" for spent time to look at my CV profile. You're a flower 🌼 on earth 🌎, let's make your life beautiful and meaningful
               </p>
               <br></br>
               <p className="lead">

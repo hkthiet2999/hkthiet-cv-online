@@ -97,7 +97,7 @@ export default  class Resume extends Component {
               </div>
 
               <p className="info" >
-                Frameworks, Platforms &#38; Technology
+                Frameworks, Platforms &#38; Technologies
               </p>
 
 

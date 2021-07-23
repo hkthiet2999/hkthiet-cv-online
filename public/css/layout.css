@@ -697,9 +697,11 @@ call-to-action .button {
    color: #fff;
 }
 #testimonials p.lead {
-   font: 18px/36px 'opensans-light', sans-serif;
-   color: #EBEEEE;
    padding-right: 3%;
+   /* font-family: 'librebaskerville-italic', serif; */
+   font-size: 24px;
+   line-height: 48px;
+   color: #fff
 }
 /*	Blockquotes */
 #testimonials blockquote {
@@ -874,10 +876,14 @@ call-to-action .button {
    color: #EBEEEE;
    margin-bottom: 6px;
 }
-#contact p.lead {
-   font: 18px/36px 'opensans-light', sans-serif;
+#contact p {
+   /* font: 36px/68px 'opensans-light', sans-serif;
    color: #EBEEEE;
-   padding-right: 3%;
+   padding-right: 3%; */
+   line-height: 50px;
+   color: #fff;
+   font-family: 'Dosis', sans-serif;
+   font-family: 'Yomogi', cursive;
 }
 #contact .header-col { padding-top: 6px; }
 
