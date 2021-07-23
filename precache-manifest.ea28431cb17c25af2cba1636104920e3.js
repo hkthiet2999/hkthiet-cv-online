@@ -268,7 +268,7 @@ self.__precacheManifest = [
     "url": "/hkthiet-cv-online/static/media/3.4e648b40.png"
   },
   {
-    "revision": "6d29c8013482c21c7d87399171ee28cf",
+    "revision": "00ce61f5ace5d199edc50db6c8b863b2",
     "url": "/hkthiet-cv-online/index.html"
   }
 ];
