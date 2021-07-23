@@ -1,5 +1,6 @@
 {
   "name": "resume",
+  "homepage": "https://smoothkt4951.github.io/hkthiet-cv-online",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -14,6 +15,8 @@
     "react-slideshow-image": "^3.5.0"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",

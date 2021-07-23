@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import { Zoom } from "react-slideshow-image";
-import Dialog from 'react-dialog'
 import ReactModal from 'react-modal';
 
 // import image1 from "./images/background1.jpg";
