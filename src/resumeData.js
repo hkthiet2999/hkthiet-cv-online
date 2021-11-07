@@ -4,7 +4,7 @@ let resumeData = {
   "role": "",
   "linkedinId": "https://www.linkedin.com/in/hkthiet99/",
   "skypeid": "Your skypeid",
-  "roleDescription": "Welcome to visit my portfolio",
+  "roleDescription": "Welcome to my portfolio",
   "socialLinks": [
     {
       "name": "linkedin",
@@ -37,11 +37,27 @@ let resumeData = {
       "specialization": "Software Engineering",
       "MonthOfPassing": "September",
       "YearOfPassing": "2017 - 2022",
-      "Achievements": "Current GPA: 6.62"
+      "Achievements": "Current GPA: 6.91",
     },
 
   ],
   "work": [
+    {
+      "CompanyName": "ACB - Asia Commercial Bank",
+      "specialization": "Onsite Engineer",
+      "MonthOfLeaving": "September - November",
+      "YearOfLeaving": "2021",
+      "Achievements": "Build functionalities according to customer requirements"
+    },
+
+    {
+      "CompanyName": "Carp Tech Corporation",
+      "specialization": "Front-end Developer",
+      "MonthOfLeaving": "June - November",
+      "YearOfLeaving": "2021",
+      "Achievements": "Join the internship program and learn the technologies related to web application development"
+    },
+
     {
       "CompanyName": "Fix and Care at Ton Duc Thang University",
       "specialization": "Computer Technician",
