@@ -42,20 +42,13 @@ let resumeData = {
 
   ],
   "work": [
-    {
-      "CompanyName": "ACB - Asia Commercial Bank",
-      "specialization": "Onsite Engineer",
-      "MonthOfLeaving": "September - November",
-      "YearOfLeaving": "2021",
-      "Achievements": "Build functionalities according to customer requirements"
-    },
 
     {
       "CompanyName": "Carp Tech Corporation",
       "specialization": "Front-end Developer",
-      "MonthOfLeaving": "June - November",
+      "MonthOfLeaving": "September - November",
       "YearOfLeaving": "2021",
-      "Achievements": "Join the internship program and learn the technologies related to web application development"
+      "Achievements": "Working onsite at Asia Comercial Bank, participate in the React Boilerplate project - a website that specifies ACB's Components and build functionalities according to customer requirements."
     },
 
     {
@@ -66,6 +59,14 @@ let resumeData = {
       "Achievements": "Supporting to repair computers, installing and guiding to use softwares."
     },
 
+  ],
+  "certificate": [
+    {
+      "certificateName": "Server-side Development with NodeJS, Express and MongoDB",
+      "dateOfAchived": "Achived Aug 08 2021",
+      "image": "sm",
+      "descriptions": "Check it out: https://bit.ly/2VDi7lQ and my GitHub repository: https://bit.ly/3yxmVrA",
+    }
   ],
   "skillsDescription": "Programming languages",
   "skills": [

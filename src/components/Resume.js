@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import certificateSrc from './images/certificates/serverside-nodejs-express-mongodb.png';
 
 export default class Resume extends Component {
   render() {
@@ -56,9 +57,45 @@ export default class Resume extends Component {
                 )
               })
             }
+            <a id="certificate"></a>
+          </div>
+        </div>
+
+        <div className="row work">
+          <div className="three columns header-col">
+            <h1><span>Certificate</span></h1>
+          </div>
+
+          <div className="nine columns main-col">
+            {
+              resumeData.certificate && resumeData.certificate.map((item) => {
+                return (
+                  <div className="row item">
+                    <div className="twelve columns">
+                      <h3>{item.certificateName}</h3>
+                      <p className="info">
+                        <span>&bull;</span> <em className="date">{item.dateOfAchived}</em>
+                      </p>
+
+                      <div>
+                        <img src={certificateSrc} alt="Server-side Development with NodeJS, Express and MongoDB" />
+                      </div>
+
+                      {/* <p>
+                        {item.descriptions}
+                      </p> */}
+                      <p>Check it out by <a href="https://bit.ly/2VDi7lQ"> click</a> and <a href="https://bit.ly/3yxmVrA"> my GitHub repository</a> </p>
+                    </div>
+
+                  </div>
+
+                )
+              })
+            }
             <a id="skills"></a>
           </div>
         </div>
+
         <div className="row skill">
 
           <div className="three columns header-col">
