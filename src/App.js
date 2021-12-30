@@ -4,7 +4,6 @@ import About from './components/About';
 import Resume from './components/Resume';
 import Projects from './components/Projects';
 import Quote from  './components/Quote';
-import ContactUs from './components/ContactUs';
 import Footer from './components/Footer';
 import resumeData from './resumeData';
 class App extends Component {
@@ -16,7 +15,6 @@ class App extends Component {
         <Resume resumeData={resumeData}/>
         <Projects resumeData={resumeData}/>
         <Quote resumeData={resumeData}/>
-        {/* <ContactUs resumeData={resumeData}/> */}
         <Footer resumeData={resumeData}/>
       </div>
     );

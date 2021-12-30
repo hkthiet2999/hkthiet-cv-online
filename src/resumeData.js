@@ -17,7 +17,6 @@ let resumeData = {
       "className": "fa fa-github"
     }, {
       "name": "google",
-      // "url":"https://mail.google.com",
       "url": "mailto:hkthiet99@gmail.com",
       "className": "fa fa-envelope"
     },

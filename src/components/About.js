@@ -1,17 +1,11 @@
 import React, { Component } from 'react';
-import cvpdf from './cv-pdf/CV_HoangKienThiet_2021.pdf';
+import cvpdf from './cv-pdf/[HCM]-CV-HoangKienThiet-2021.pdf';
 export default class About extends Component {
    render() {
       let resumeData = this.props.resumeData;
       return (
          <section id="about">
             <div className="row">
-
-               {/* <div className="three columns">
-
-               <img className="profile-pic"  src="images/profilepic.jpg" alt="" />
-
-            </div> */}
                <div>
 
                   <h3>
@@ -43,7 +37,7 @@ export default class About extends Component {
                               <br></br>
                               <span><i class="fa fa-download"></i>&nbsp;&nbsp;
                               Download my CV.pdf by
-                              <a href={cvpdf} download="CV_HoangKienThiet_2021.pdf"> click</a>
+                              <a href={cvpdf} download="[HCM]_CV_HoangKienThiet_2021.pdf"> click</a>
                               </span>
 
                            </p>

@@ -2,11 +2,6 @@ import React, { Component } from 'react';
 import { Zoom } from "react-slideshow-image";
 import ReactModal from 'react-modal';
 
-// import image1 from "./images/background1.jpg";
-// import image2 from "./images/background2.jpg";
-// import image3 from "./images/background3.jpg";
-// import image4 from "./images/background4.jpg";
-// import image5 from "./images/background5.jpg";
 // images
 // 01
 import PJ01_image1 from "./images/project01/1.png";
@@ -407,7 +402,7 @@ export default class Projects extends Component {
         <h1><span>Web Application</span></h1>
         <div  className="row">
           <div className="twelve columns collapsed">
-            <h2>E-COMMERCE WEBSITE <p><i>May 2021 - Present</i></p></h2>
+            <h2>E-COMMERCE WEBSITE <p><i>May 2021 - Sep 2021</i></p></h2>
             
             <div className="three columns">
               <p><b><i>Technologies and Tools</i></b> <br></br> 
