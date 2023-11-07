@@ -81,9 +81,6 @@ export default class Resume extends Component {
                         <img src={certificateSrc} alt="Server-side Development with NodeJS, Express and MongoDB" />
                       </div>
 
-                      {/* <p>
-                        {item.descriptions}
-                      </p> */}
                       <p>Check it out by <a href="https://bit.ly/2VDi7lQ"> click</a> and <a href="https://bit.ly/3yxmVrA"> my GitHub repository</a> </p>
                     </div>
 

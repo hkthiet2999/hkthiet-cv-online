@@ -108,7 +108,7 @@ const SlideshowProjects01 = () => {
     <div className="slide-container">
       <Zoom scale={0.4} {...Arrows}>
         {
-          PJ01_images.map((each, index) => <img key={index} style={{width: "100%", objectFit: 'contain', height: 'auto', maxHeight: '400px'}} src={each} />)
+          PJ01_images.map((each, index) => <img alt={""} key={index} style={{width: "100%", objectFit: 'contain', height: 'auto', maxHeight: '400px'}} src={each} />)
         }
       </Zoom>
     </div>
@@ -121,7 +121,7 @@ const SlideshowProjects02 = () => {
     <div className="slide-container">
       <Zoom scale={0.4}  arrows={true} {...Arrows}>
         {
-          PJ02_images.map((each, index) => <img key={index} style={{width: "100%", objectFit: 'contain', height: 'auto', maxHeight: '400px'}} src={each} />)
+          PJ02_images.map((each, index) => <img alt={""} key={index} style={{width: "100%", objectFit: 'contain', height: 'auto', maxHeight: '400px'}} src={each} />)
         }
       </Zoom>
     </div>
@@ -134,7 +134,7 @@ const SlideshowProjects03 = () => {
     <div className="slide-container">
       <Zoom scale={0.4}  arrows={true} {...Arrows}>
         {
-          PJ03_images.map((each, index) => <img key={index} style={{width: "100%", objectFit: 'contain', height: 'auto', maxHeight: '400px'}} src={each} />)
+          PJ03_images.map((each, index) => <img alt={""} key={index} style={{width: "100%", objectFit: 'contain', height: 'auto', maxHeight: '400px'}} src={each} />)
         }
       </Zoom>
     </div>
@@ -146,7 +146,7 @@ const SlideshowProjects04 = () => {
     <div className="slide-container">
       <Zoom scale={0.4}  arrows={true} {...Arrows}>
         {
-          PJ04_images.map((each, index) => <img key={index} style={{width: "100%", objectFit: 'contain', height: 'auto', maxHeight: '400px'}} src={each} />)
+          PJ04_images.map((each, index) => <img alt={""} key={index} style={{width: "100%", objectFit: 'contain', height: 'auto', maxHeight: '400px'}} src={each} />)
         }
       </Zoom>
     </div>
@@ -158,7 +158,7 @@ const SlideshowProjects05 = () => {
     <div className="slide-container">
       <Zoom scale={0.4}  arrows={true} {...Arrows}>
         {
-          PJ05_images.map((each, index) => <img key={index} style={{width: "100%", objectFit: 'contain', height: 'auto', maxHeight: '400px'}} src={each} />)
+          PJ05_images.map((each, index) => <img alt={""} key={index} style={{width: "100%", objectFit: 'contain', height: 'auto', maxHeight: '400px'}} src={each} />)
         }
       </Zoom>
     </div>
@@ -170,7 +170,7 @@ const SlideshowProjects06 = () => {
     <div className="slide-container">
       <Zoom scale={0.4}  arrows={true} {...Arrows}>
         {
-          PJ06_images.map((each, index) => <img key={index} style={{width: "100%", objectFit: 'contain', height: 'auto', maxHeight: '400px'}} src={each} />)
+          PJ06_images.map((each, index) => <img alt={""} key={index} style={{width: "100%", objectFit: 'contain', height: 'auto', maxHeight: '400px'}} src={each} />)
         }
       </Zoom>
     </div>
@@ -183,7 +183,7 @@ const SlideshowProjects07 = () => {
     <div className="slide-container">
       <Zoom scale={0.4}  arrows={true} {...Arrows}>
         {
-          PJ07_images.map((each, index) => <img key={index} style={{width: "100%", objectFit: 'contain', height: 'auto', maxHeight: '400px'}} src={each} />)
+          PJ07_images.map((each, index) => <img alt={""} key={index} style={{width: "100%", objectFit: 'contain', height: 'auto', maxHeight: '400px'}} src={each} />)
         }
       </Zoom>
     </div>
@@ -196,7 +196,7 @@ const SlideshowProjects08 = () => {
     <div className="slide-container">
       <Zoom scale={0.4}  arrows={true} {...Arrows}>
         {
-          PJ08_images.map((each, index) => <img key={index} style={{width: "100%", objectFit: 'contain', height: 'auto', maxHeight: '400px'}} src={each} />)
+          PJ08_images.map((each, index) => <img alt={""} key={index} style={{width: "100%", objectFit: 'contain', height: 'auto', maxHeight: '400px'}} src={each} />)
         }
       </Zoom>
     </div>
@@ -209,7 +209,7 @@ const SlideshowProjects09 = () => {
     <div className="slide-container">
       <Zoom scale={0.4}  arrows={true} {...Arrows}>
         {
-          PJ09_images.map((each, index) => <img key={index} style={{width: "100%", objectFit: 'contain', height: 'auto', maxHeight: '400px'}} src={each} />)
+          PJ09_images.map((each, index) => <img alt={""} key={index} style={{width: "100%", objectFit: 'contain', height: 'auto', maxHeight: '400px'}} src={each} />)
         }
       </Zoom>
     </div>
@@ -221,7 +221,7 @@ const SlideshowProjects010 = () => {
     <div className="slide-container">
       <Zoom scale={0.4}  arrows={true} {...Arrows}>
         {
-          PJ10_images.map((each, index) => <img key={index} style={{width: "100%", objectFit: 'contain', height: 'auto', maxHeight: '400px'}} src={each} />)
+          PJ10_images.map((each, index) => <img alt={""} key={index} style={{width: "100%", objectFit: 'contain', height: 'auto', maxHeight: '400px'}} src={each} />)
         }
       </Zoom>
     </div>
@@ -234,7 +234,7 @@ const SlideshowProjects011 = () => {
     <div className="slide-container">
       <Zoom scale={0.4}  arrows={true} {...Arrows}>
         {
-          PJ11_images.map((each, index) => <img key={index} style={{width: "100%", objectFit: 'contain', height: 'auto', maxHeight: '400px'}} src={each} />)
+          PJ11_images.map((each, index) => <img alt={""} key={index} style={{width: "100%", objectFit: 'contain', height: 'auto', maxHeight: '400px'}} src={each} />)
         }
       </Zoom>
     </div>
@@ -452,14 +452,14 @@ export default class Projects extends Component {
                     <li>•	Using ExpressJS on the server-side and MongoDB for database management.</li>
                     <li>•	Using ReactJS with Material UI library on the client-side.</li>
                     <li>•	API Specification using Swagger 2.0.</li>
-                    <li>•	Unit testing for API using Mocha & Chai and NYC for <a href="https://smoothkt4951.github.io/KT-Ecommerce/" target="_blank">Coverage reporter</a></li>
-                    <li>•	Built Docker Compose for the API, Database at <a href="https://hub.docker.com/r/kienthiet/backend-api-db" target="_blank">kienthiet/backend-api-db</a> and working on how to deploy a complete application and pull by command: docker pull kienthiet/backend-api-db</li>
+                    <li>•	Unit testing for API using Mocha & Chai and NYC for <a href="https://smoothkt4951.github.io/KT-Ecommerce/" target="_blank" rel="noopener noreferrer">Coverage reporter</a></li>
+                    <li>•	Built Docker Compose for the API, Database at <a href="https://hub.docker.com/r/kienthiet/backend-api-db" target="_blank" rel="noopener noreferrer">kienthiet/backend-api-db</a> and working on how to deploy a complete application and pull by command: docker pull kienthiet/backend-api-db</li>
                   </ul>
-                  <p><b><i>Source code at</i></b> <a href="https://github.com/smoothkt4951/KT-Ecommerce" target="_blank" style={{fontSize: 'x-large'}}>GitHub</a> </p>
+                  <p><b><i>Source code at</i></b> <a href="https://github.com/smoothkt4951/KT-Ecommerce" target="_blank" rel="noopener noreferrer" style={{fontSize: 'x-large'}}>GitHub</a> </p>
                   <button onClick={this.handleCloseModal1}>Close</button>
                 </ReactModal>
               </div>
-              <p><b><i>Source code at  </i></b> <p style={{fontSize: 'x-large'}}> <a href="https://github.com/smoothkt4951/KT-Ecommerce" target="_blank">GitHub</a> </p></p>
+              <p><b><i>Source code at  </i></b> <p style={{fontSize: 'x-large'}}> <a href="https://github.com/smoothkt4951/KT-Ecommerce" target="_blank" rel="noopener noreferrer">GitHub</a> </p></p>
         
             </div>
             <div id="portfolio-wrapper" className="nine columns" style={{display: this.state.hiddenSlideShow}}>
@@ -514,11 +514,11 @@ export default class Projects extends Component {
                     <li>•	Realtime chat website using Web Socket protocol. The website has features such as Login and select Chatroom, list of users and chat together</li>
                     <li>•	Writing the backend that implements the Web Socket protocol</li>
                   </ul>
-                  <p><b><i>Source code at</i></b> <a href="https://github.com/smoothkt4951/chatty" target="_blank" style={{fontSize: 'x-large'}}>GitHub</a> </p>
+                  <p><b><i>Source code at</i></b> <a href="https://github.com/smoothkt4951/chatty" target="_blank" rel="noopener noreferrer" style={{fontSize: 'x-large'}}>GitHub</a> </p>
                   <button onClick={this.handleCloseModal2}>Close</button>
                 </ReactModal>
               </div>
-              <p><b><i>Source code at  </i></b> <p style={{fontSize: 'x-large'}}> <a href="https://github.com/smoothkt4951/chatty" target="_blank">GitHub</a> </p></p>
+              <p><b><i>Source code at  </i></b> <p style={{fontSize: 'x-large'}}> <a href="https://github.com/smoothkt4951/chatty" target="_blank" rel="noopener noreferrer">GitHub</a> </p></p>
             </div>
 
             <div id="portfolio-wrapper" className="nine columns" style={{display: this.state.hiddenSlideShow}}>
@@ -581,11 +581,11 @@ export default class Projects extends Component {
                     <li>• flash messsage to send messages between routes.</li>
                     <li>• ajax/fetch combined with server-side rest api to perform features that need to read/change data from server without reloading the web</li>
                   </ul>
-                  <p><b><i>Source code at</i></b> <a href="https://github.com/smoothkt4951/FileManager" target="_blank" style={{fontSize: 'x-large'}}>GitHub</a> </p>
+                  <p><b><i>Source code at</i></b> <a href="https://github.com/smoothkt4951/FileManager" target="_blank" rel="noopener noreferrer" style={{fontSize: 'x-large'}}>GitHub</a> </p>
                   <button onClick={this.handleCloseModal3}>Close</button>
                 </ReactModal>
               </div>
-            <p><b><i>Source code at  </i></b> <p style={{fontSize: 'x-large'}}> <a href="https://github.com/smoothkt4951/FileManager" target="_blank">GitHub</a> </p></p>          </div>
+            <p><b><i>Source code at  </i></b> <p style={{fontSize: 'x-large'}}> <a href="https://github.com/smoothkt4951/FileManager" target="_blank" rel="noopener noreferrer">GitHub</a> </p></p>          </div>
             
             <div id="portfolio-wrapper" className="nine columns" style={{display: this.state.hiddenSlideShow}}>
               <SlideshowProjects03 />
@@ -602,7 +602,7 @@ export default class Projects extends Component {
               </p>
               <hr></hr>
               <p>The most valuable description is your experience with this CV</p>
-              <p><b><i>Source code at  </i></b> <p style={{fontSize: 'x-large'}}> <a href="https://github.com/smoothkt4951/hkthiet-cv-online" target="_blank">GitHub</a> </p></p>            </div>
+              <p><b><i>Source code at  </i></b> <p style={{fontSize: 'x-large'}}> <a href="https://github.com/smoothkt4951/hkthiet-cv-online" target="_blank" rel="noopener noreferrer">GitHub</a> </p></p>            </div>
             <div id="portfolio-wrapper" className="nine columns" style={{display: this.state.hiddenSlideShow}} >
               <SlideshowProjects04/>
             </div>
@@ -659,11 +659,11 @@ export default class Projects extends Component {
                     <li>•	Architecture of the Kubernetes Cluster and Containers, Workloads.</li>
                     <li>•	Practie with exercies on Katacoda such as  Deploy Single Node on Kubernetes Cluster, HPA, POD & Service using YAML manifest and practice with ReplicaSet, Deployment.</li>
                   </ul>
-                  <p><b><i>Source code at</i></b> <a href="https://github.com/smoothkt4951/kubernetes-notebook" target="_blank" style={{fontSize: 'x-large'}}>GitHub</a> </p>
+                  <p><b><i>Source code at</i></b> <a href="https://github.com/smoothkt4951/kubernetes-notebook" target="_blank" rel="noopener noreferrer" style={{fontSize: 'x-large'}}>GitHub</a> </p>
                   <button onClick={this.handleCloseModal5}>Close</button>
                 </ReactModal>
               </div>
-              <p><b><i>Source code at  </i></b> <p style={{fontSize: 'x-large'}}> <a href="https://github.com/smoothkt4951/kubernetes-notebook" target="_blank">GitHub</a> </p></p></div>
+              <p><b><i>Source code at  </i></b> <p style={{fontSize: 'x-large'}}> <a href="https://github.com/smoothkt4951/kubernetes-notebook" target="_blank" rel="noopener noreferrer">GitHub</a> </p></p></div>
             <div id="portfolio-wrapper" className="nine columns" style={{display: this.state.hiddenSlideShow}}>
               <SlideshowProjects05 />
             </div>
@@ -715,17 +715,17 @@ export default class Projects extends Component {
                   <ul>
                     <li>•	Researching about Massive Data Processing and synthesized as an instrumental study at GitHub.</li>
                     <li>•	Finding Similar Documents Application with Locality Sensitive Hashing in Big Data.
-                    <a href="https://colab.research.google.com/drive/13yTs0VT0wYDV9YzDB9YMIEwu-SKZv-yl?usp=sharing" target="_blank">&nbsp; Colab using PySpark</a>
-                    &nbsp; and <a href="https://colab.research.google.com/drive/1al-1mblo6cCYbNAlHqMY36LNqNOHOC2E?usp=sharing" target="_blank" >Colab not using PySpark</a>
+                    <a href="https://colab.research.google.com/drive/13yTs0VT0wYDV9YzDB9YMIEwu-SKZv-yl?usp=sharing" target="_blank" rel="noopener noreferrer">&nbsp; Colab using PySpark</a>
+                    &nbsp; and <a href="https://colab.research.google.com/drive/1al-1mblo6cCYbNAlHqMY36LNqNOHOC2E?usp=sharing" target="_blank" rel="noopener noreferrer" >Colab not using PySpark</a>
                     </li> 
-                    <li>•	<a href="https://colab.research.google.com/drive/1llG_cU6rhy6f1Ly15V--qy4ZNftFJZHV?usp=sharing" target="_blank" >Machine Learning &nbsp;</a>
+                    <li>•	<a href="https://colab.research.google.com/drive/1llG_cU6rhy6f1Ly15V--qy4ZNftFJZHV?usp=sharing" target="_blank" rel="noopener noreferrer" >Machine Learning &nbsp;</a>
 in PySpark and Recommendation System</li>
                   </ul>
-                  <p><b><i>Source code at</i></b> <a href="https://github.com/smoothkt4951/Massive-Data-Processing-Course" target="_blank" style={{fontSize: 'x-large'}}>GitHub</a> </p>
+                  <p><b><i>Source code at</i></b> <a href="https://github.com/smoothkt4951/Massive-Data-Processing-Course" target="_blank" rel="noopener noreferrer" style={{fontSize: 'x-large'}}>GitHub</a> </p>
                   <button onClick={this.handleCloseModal6}>Close</button>
                 </ReactModal>
               </div>
-              <p><b><i>Source code at  </i></b> <p style={{fontSize: 'x-large'}}> <a href="https://github.com/smoothkt4951/Massive-Data-Processing-Course" target="_blank">GitHub</a> </p></p>            </div>
+              <p><b><i>Source code at  </i></b> <p style={{fontSize: 'x-large'}}> <a href="https://github.com/smoothkt4951/Massive-Data-Processing-Course" target="_blank" rel="noopener noreferrer">GitHub</a> </p></p>            </div>
             <div id="portfolio-wrapper" className="nine columns" style={{display: this.state.hiddenSlideShow}}>
               <SlideshowProjects06 />
             </div>
@@ -778,14 +778,14 @@ in PySpark and Recommendation System</li>
                   <h3 style={{textAlign: 'center'}}>Room Occupancy Prediction Model</h3>
                   <ul>
                     <li>• Neural Network (FNN, RNN-LSTM) for prediction from Occupancy Detection Datasets whether or not the office is inhabited</li>
-                    <li>• Data Visualization for Occupancy Dataset in <a href="https://archive.ics.uci.edu/ml/datasets/Occupancy+Detection+" target="_blank"> UCI</a></li>
-                    <li>• Jupyter Notebook: <a href="https://colab.research.google.com/drive/1MgAODv_OovEkrHsNuoZ9mGNeFtMHAgNz?usp=sharing" target="_blank">Google Colab</a> or <a href="https://www.kaggle.com/ktsmooth/occupancy-detection-using-fnn-lstm" target="_blank">Kaggle</a> or <a href="https://github.com/smoothkt4951/Room-Occupancy-Detection-Models/blob/main/final_ML_Occupancy.ipynb" target="_blank">GitHub</a></li>
+                    <li>• Data Visualization for Occupancy Dataset in <a href="https://archive.ics.uci.edu/ml/datasets/Occupancy+Detection+" target="_blank" rel="noopener noreferrer"> UCI</a></li>
+                    <li>• Jupyter Notebook: <a href="https://colab.research.google.com/drive/1MgAODv_OovEkrHsNuoZ9mGNeFtMHAgNz?usp=sharing" target="_blank" rel="noopener noreferrer">Google Colab</a> or <a href="https://www.kaggle.com/ktsmooth/occupancy-detection-using-fnn-lstm" target="_blank" rel="noopener noreferrer">Kaggle</a> or <a href="https://github.com/smoothkt4951/Room-Occupancy-Detection-Models/blob/main/final_ML_Occupancy.ipynb" target="_blank" rel="noopener noreferrer">GitHub</a></li>
                   </ul>
-                  <p><b><i>Source code at</i></b> <a href="https://github.com/smoothkt4951/Room-Occupancy-Detection-Models" target="_blank" style={{fontSize: 'x-large'}}>GitHub</a> </p>
+                  <p><b><i>Source code at</i></b> <a href="https://github.com/smoothkt4951/Room-Occupancy-Detection-Models" target="_blank" rel="noopener noreferrer" style={{fontSize: 'x-large'}}>GitHub</a> </p>
                   <button onClick={this.handleCloseModal7}>Close</button>
                 </ReactModal>
               </div>
-              <p><b><i>Source code at  </i></b> <p style={{fontSize: 'x-large'}}> <a href="https://github.com/smoothkt4951/Room-Occupancy-Detection-Models" target="_blank">GitHub</a> or <a href="https://colab.research.google.com/drive/1MgAODv_OovEkrHsNuoZ9mGNeFtMHAgNz?usp=sharing" target="_blank">Google Colab</a></p></p>            </div>
+              <p><b><i>Source code at  </i></b> <p style={{fontSize: 'x-large'}}> <a href="https://github.com/smoothkt4951/Room-Occupancy-Detection-Models" target="_blank" rel="noopener noreferrer">GitHub</a> or <a href="https://colab.research.google.com/drive/1MgAODv_OovEkrHsNuoZ9mGNeFtMHAgNz?usp=sharing" target="_blank" rel="noopener noreferrer">Google Colab</a></p></p>            </div>
             <div id="portfolio-wrapper" className="nine columns" style={{display: this.state.hiddenSlideShow}}>
               <SlideshowProjects07 />
             </div>
@@ -837,16 +837,16 @@ in PySpark and Recommendation System</li>
                   <h3 style={{textAlign: 'center'}}>Echocardiogram Prediction Model</h3>
                   <ul>
                     <li>• I built Machine Learning models ( k-Nearest Neighbor, Naive Bayes,Support Vector Machine, Random Forest Classifier) for prediction from Echocardiogram Datasets whether or not the patient will survive at least one year.</li>
-                    <li>• Source code: <a href=" https://github.com/smoothkt4951/Echocardiogram-Datasets-Prediction-Model/blob/main/main.ipynb" target="_blank">main.ipynb</a> </li>
+                    <li>• Source code: <a href=" https://github.com/smoothkt4951/Echocardiogram-Datasets-Prediction-Model/blob/main/main.ipynb" target="_blank" rel="noopener noreferrer">main.ipynb</a> </li>
                     <li>• Presentation about Overfiting Problems</li>
 
 
                   </ul>
-                  <p><b><i>Source code at</i></b> <a href="https://github.com/smoothkt4951/Echocardiogram-Datasets-Prediction-Model" target="_blank" style={{fontSize: 'x-large'}}>GitHub</a> </p>
+                  <p><b><i>Source code at</i></b> <a href="https://github.com/smoothkt4951/Echocardiogram-Datasets-Prediction-Model" target="_blank" rel="noopener noreferrer" style={{fontSize: 'x-large'}}>GitHub</a> </p>
                   <button onClick={this.handleCloseModal8}>Close</button>
                 </ReactModal>
               </div>
-              <p><b><i>Source code at  </i></b> <p style={{fontSize: 'x-large'}}> <a href="https://github.com/smoothkt4951/Echocardiogram-Datasets-Prediction-Model" target="_blank">GitHub</a> </p></p>            </div>
+              <p><b><i>Source code at  </i></b> <p style={{fontSize: 'x-large'}}> <a href="https://github.com/smoothkt4951/Echocardiogram-Datasets-Prediction-Model" target="_blank" rel="noopener noreferrer">GitHub</a> </p></p>            </div>
             <div id="portfolio-wrapper" className="nine columns" style={{display: this.state.hiddenSlideShow}}>
               <SlideshowProjects08 />
             </div>
@@ -899,11 +899,11 @@ in PySpark and Recommendation System</li>
                   <ul>
                     <li>•	I used OpenCV to detection number bounding boxes from a noise image</li>
                   </ul>
-                  <p><b><i>Source code at</i></b> <a href="https://github.com/smoothkt4951/Number-Bounding-Boxes-Detection" target="_blank" style={{fontSize: 'x-large'}}>GitHub</a> </p>
+                  <p><b><i>Source code at</i></b> <a href="https://github.com/smoothkt4951/Number-Bounding-Boxes-Detection" target="_blank" rel="noopener noreferrer" style={{fontSize: 'x-large'}}>GitHub</a> </p>
                   <button onClick={this.handleCloseModal9}>Close</button>
                 </ReactModal>
               </div>
-              <p><b><i>Source code at  </i></b> <p style={{fontSize: 'x-large'}}> <a href="https://github.com/smoothkt4951/Number-Bounding-Boxes-Detection" target="_blank">GitHub</a> </p></p>            </div>
+              <p><b><i>Source code at  </i></b> <p style={{fontSize: 'x-large'}}> <a href="https://github.com/smoothkt4951/Number-Bounding-Boxes-Detection" target="_blank" rel="noopener noreferrer">GitHub</a> </p></p>            </div>
             <div id="portfolio-wrapper" className="nine columns" style={{display: this.state.hiddenSlideShow}}>
               <SlideshowProjects09 />
             </div>
@@ -958,11 +958,11 @@ in PySpark and Recommendation System</li>
                   <ul>
                     <li>•	Crawling data form vnexpress, thanhnien, vietnamnet</li>
                   </ul>
-                  <p><b><i>Source code at</i></b> <a href="https://github.com/smoothkt4951/crawling-VietNam-News" target="_blank" style={{fontSize: 'x-large'}}>GitHub</a> </p>
+                  <p><b><i>Source code at</i></b> <a href="https://github.com/smoothkt4951/crawling-VietNam-News" target="_blank" rel="noopener noreferrer" style={{fontSize: 'x-large'}}>GitHub</a> </p>
                   <button onClick={this.handleCloseModal10}>Close</button>
                 </ReactModal>
               </div>
-              <p><b><i>Source code at  </i></b> <p style={{fontSize: 'x-large'}}> <a href="https://github.com/smoothkt4951/crawling-VietNam-News" target="_blank">GitHub</a> </p></p>            </div>
+              <p><b><i>Source code at  </i></b> <p style={{fontSize: 'x-large'}}> <a href="https://github.com/smoothkt4951/crawling-VietNam-News" target="_blank" rel="noopener noreferrer">GitHub</a> </p></p>            </div>
             <div id="portfolio-wrapper" className="nine columns" style={{display: this.state.hiddenSlideShow}}>
               <SlideshowProjects010 />
             </div>
@@ -1014,11 +1014,11 @@ in PySpark and Recommendation System</li>
                   <ul>
                     <li>•	Build Sudoku puzzles using permutation and output them to file using Python</li>
                   </ul>
-                  <p><b><i>Source code at</i></b> <a href="https://github.com/smoothkt4951/Sudoku-Problem" target="_blank" style={{fontSize: 'x-large'}}>GitHub</a> </p>
+                  <p><b><i>Source code at</i></b> <a href="https://github.com/smoothkt4951/Sudoku-Problem" target="_blank" rel="noopener noreferrer" style={{fontSize: 'x-large'}}>GitHub</a> </p>
                   <button onClick={this.handleCloseModal11}>Close</button>
                 </ReactModal>
               </div>
-              <p><b><i>Source code at  </i></b> <p style={{fontSize: 'x-large'}}> <a href="https://github.com/smoothkt4951/Sudoku-Problem" target="_blank">GitHub</a> </p></p>            </div>
+              <p><b><i>Source code at  </i></b> <p style={{fontSize: 'x-large'}}> <a href="https://github.com/smoothkt4951/Sudoku-Problem" target="_blank" rel="noopener noreferrer">GitHub</a> </p></p>            </div>
             <div id="portfolio-wrapper" className="nine columns" style={{display: this.state.hiddenSlideShow}}>
               <SlideshowProjects011 />
             </div>

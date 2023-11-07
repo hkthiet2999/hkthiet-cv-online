@@ -31,7 +31,7 @@ export default class About extends Component {
                               <span> <i class="fa fa-map-marker"></i>&nbsp;&nbsp;{resumeData.address}
                               </span>
                               <br></br>
-                              <span> <i class="fa fa-envelope"></i>&nbsp;&nbsp; <a href="mailto:hkthiet99@gmail.com" target="_blank">{resumeData.website}</a> </span>
+                              <span> <i class="fa fa-envelope"></i>&nbsp;&nbsp; <a href="mailto:hkthiet99@gmail.com" target="_blank" rel="noopener noreferrer">{resumeData.website}</a> </span>
                               <br></br>
                               <span><i class="fa fa-phone"></i>&nbsp;&nbsp;(+84) 79 862-4951</span>
                               <br></br>
@@ -47,7 +47,7 @@ export default class About extends Component {
                   </div>
                </div>
             </div>
-            <a id="education"></a>
+            <a id="education" href="#education" aria-label="Education Section"></a>
          </section>
       );
    }
