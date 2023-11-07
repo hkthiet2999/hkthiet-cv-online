@@ -1,6 +1,6 @@
-import React, { Component } from 'react';
+import React from 'react';
 import cvpdf from './cv-pdf/[HCM]-CV-HoangKienThiet-2021.pdf';
-export default class About extends Component {
+export default class About extends React.Component {
    render() {
       let resumeData = this.props.resumeData;
       return (

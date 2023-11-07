@@ -1,7 +1,7 @@
-import React, { Component } from 'react';
+import React from 'react';
 import certificateSrc from './images/certificates/serverside-nodejs-express-mongodb.png';
 
-export default class Resume extends Component {
+export default class Resume extends React.Component {
   render() {
     let resumeData = this.props.resumeData;
     return (

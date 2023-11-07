@@ -1,5 +1,5 @@
-import React, { Component } from 'react';
-export default class Quote extends Component {
+import React from 'react';
+export default class Quote extends React.Component {
   render() {
     let resumeData = this.props.resumeData;
     return (

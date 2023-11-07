@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React from 'react';
 import { Zoom } from "react-slideshow-image";
 import ReactModal from 'react-modal';
 
@@ -240,7 +240,7 @@ const SlideshowProjects011 = () => {
     </div>
   )
 }
-export default class Projects extends Component {
+export default class Projects extends React.Component {
   // constructor() {
   //   super();
   //   this.state = {
