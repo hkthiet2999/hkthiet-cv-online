@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/hkthiet-cv-online/precache-manifest.78ab526681d30cc556d6fd32c33f1f44.js"
+  "/hkthiet-cv-online/precache-manifest.0f21abd181077a0b2d3e70c743d5ca06.js"
 );
 
 workbox.clientsClaim();
