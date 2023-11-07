@@ -1,19 +1,19 @@
 self.__precacheManifest = [
   {
-    "revision": "1d8f0fe9b5feab55c990",
-    "url": "/hkthiet-cv-online/static/css/main.aab56ad1.chunk.css"
+    "revision": "e8df1a77a5e5f68ef937",
+    "url": "/hkthiet-cv-online/static/css/main.523cdf63.chunk.css"
   },
   {
-    "revision": "1d8f0fe9b5feab55c990",
-    "url": "/hkthiet-cv-online/static/js/main.1d8f0fe9.chunk.js"
+    "revision": "e8df1a77a5e5f68ef937",
+    "url": "/hkthiet-cv-online/static/js/main.e8df1a77.chunk.js"
   },
   {
-    "revision": "694c9c3a595fc026e74e",
-    "url": "/hkthiet-cv-online/static/css/1.7c03d4a3.chunk.css"
+    "revision": "2675e4571166014a001a",
+    "url": "/hkthiet-cv-online/static/css/1.95dd13fe.chunk.css"
   },
   {
-    "revision": "694c9c3a595fc026e74e",
-    "url": "/hkthiet-cv-online/static/js/1.694c9c3a.chunk.js"
+    "revision": "2675e4571166014a001a",
+    "url": "/hkthiet-cv-online/static/js/1.2675e457.chunk.js"
   },
   {
     "revision": "44ea27f2879e522d7745",
@@ -276,7 +276,7 @@ self.__precacheManifest = [
     "url": "/hkthiet-cv-online/static/media/3.4e648b40.png"
   },
   {
-    "revision": "69b0b02cbfb1e2e2c4628ea10ab9a0ef",
+    "revision": "833ac29f3b8803c63735be5904df6201",
     "url": "/hkthiet-cv-online/index.html"
   }
 ];
