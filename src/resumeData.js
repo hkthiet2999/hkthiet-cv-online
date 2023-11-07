@@ -1,9 +1,9 @@
 let resumeData = {
   "imagebaseurl": "",
-  "name": "Kien Thiet Hoang",
+  "name": "Harry Hoang",
   "role": "",
   "linkedinId": "https://www.linkedin.com/in/hkthiet99/",
-  "skypeid": "Your skypeid",
+  "skypeid": "live:.cid.1be26794659f7aa3",
   "roleDescription": "Welcome to my portfolio",
   "socialLinks": [
     {
@@ -27,8 +27,8 @@ let resumeData = {
     },
 
   ],
-  "aboutme": "Fourth-year student in Software Engineering at Ton Duc Thang University. Aiming to use my knowledge to experience in a dynamic, professional environment. From there, improve my knowledge, personal skills, working attitude and contribute to the company's benefits.",
-  "address": "District 7, Ho Chi Minh City, Viet Nam",
+  "aboutme": "As a Software Engineering graduate from Ton Duc Thang University, I've enriched my expertise over two years at Contemi Vietnam, where I've thrived as a Full Stack Developer. I am dedicated to applying this specialized experience in a role that not only pushes my technical boundaries but also aligns with the strategic objectives of the organization. My commitment lies in driving excellence, fostering continuous personal growth, and contributing to success through innovative and collaborative efforts." ,
+  "address": "District Tan Binh, Ho Chi Minh City, Vietnam",
   "website": "hkthiet99@gmail.com",
   "education": [
     {
@@ -36,7 +36,7 @@ let resumeData = {
       "specialization": "Software Engineering",
       "MonthOfPassing": "September",
       "YearOfPassing": "2017 - 2022",
-      "Achievements": "Current GPA: 6.91",
+      "Achievements": "Current GPA: 7.21",
     },
 
   ],
