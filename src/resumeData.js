@@ -4,7 +4,6 @@ let resumeData = {
   "role": "",
   "linkedinId": "https://www.linkedin.com/in/hkthiet99/",
   "skypeid": "live:.cid.1be26794659f7aa3",
-  "roleDescription": "Welcome to my portfolio",
   "socialLinks": [
     {
       "name": "linkedin",

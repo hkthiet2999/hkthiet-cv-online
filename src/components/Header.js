@@ -1,4 +1,5 @@
 import React from 'react';
+import Typewriter from "typewriter-effect";
 export default class Header extends React.Component {
   render() {
     let resumeData = this.props.resumeData;
@@ -25,20 +26,37 @@ export default class Header extends React.Component {
 
           <div className="row banner">
             <div className="banner-text">
-              <h1 className="responsive-headline">I am {resumeData.name}</h1>
-              <h2 style={{ color: '#fff', fontFamily: 'sans-serif ' }}>{resumeData.roleDescription}
+              <h2 style={{color: '#fff', fontFamily: 'sans-serif '}}>
+                Hi There! 👋🏻
               </h2>
-              <hr />
+              <h1 className="responsive-headline"><span style={{color: '#000000'}}>I am</span> {resumeData.name}</h1>
+              <h2 style={{color: '#fff', fontFamily: 'sans-serif '}}>
+                <Typewriter
+                    options={{
+                      loop: true,
+                    }}
+                    onInit={(typewriter) => {
+                      typewriter.typeString('Software Developer')
+                          .pauseFor(2500)
+                          .deleteAll()
+                          .typeString('Welcome to my portfolio')
+                          .pauseFor(2500)
+                          .deleteAll()
+                          .start();
+                    }}
+                />
+              </h2>
+              <hr/>
               <ul className="social">
                 {
-                  resumeData.socialLinks && resumeData.socialLinks.map(item => {
-                    return (
-                      <li key={item.name}>
-                        <a href={item.url} target="_blank" rel="noopener noreferrer"><i className={item.className}></i></a>
-                      </li>
+                    resumeData.socialLinks && resumeData.socialLinks.map(item => {
+                          return (
+                              <li key={item.name}>
+                                <a href={item.url} target="_blank" rel="noopener noreferrer"><i className={item.className}></i></a>
+                              </li>
+                          )
+                        }
                     )
-                  }
-                  )
                 }
               </ul>
             </div>
