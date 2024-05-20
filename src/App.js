@@ -6,17 +6,19 @@ import Projects from './components/Projects';
 import Quote from  './components/Quote';
 import Footer from './components/Footer';
 import resumeData from './resumeData';
+import WorkProjects from './components/WorkProjects';
+
 class App extends Component {
   render() {
     return (
-      <div className="App">
-        <Header resumeData={resumeData}/>
-        <About resumeData={resumeData}/>
-        <Resume resumeData={resumeData}/>
-        <Projects resumeData={resumeData}/>
-        <Quote resumeData={resumeData}/>
-        <Footer resumeData={resumeData}/>
-      </div>
+        <div className="App">
+            <Header resumeData={resumeData}/>
+            <About resumeData={resumeData}/>
+            <Resume resumeData={resumeData}/>
+            <WorkProjects resumeData={resumeData}/>
+            <Quote resumeData={resumeData}/>
+            <Footer resumeData={resumeData}/>
+        </div>
     );
   }
 }

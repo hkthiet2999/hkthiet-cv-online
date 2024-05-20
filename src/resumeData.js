@@ -109,6 +109,36 @@ let resumeData = {
       "description": "This is a sample testimonial",
       "name": "Some technical guy"
     }
+  ],
+  "projects": [
+    {
+      title: 'Project One',
+      description: 'This is a brief description of project one.',
+      image: 'https://via.placeholder.com/300x200',
+      github: 'https://github.com/user/project-one',
+      live: 'https://project-one.live'
+    },
+    {
+      title: 'Project Two',
+      description: 'This is a brief description of project two.',
+      image: 'https://via.placeholder.com/300x200',
+      github: 'https://github.com/user/project-two',
+      live: 'https://project-two.live'
+    },
+    {
+      title: 'Project Two',
+      description: 'This is a brief description of project two.',
+      image: 'https://via.placeholder.com/300x200',
+      github: 'https://github.com/user/project-two',
+      live: 'https://project-two.live'
+    },
+    {
+      title: 'Project Two',
+      description: 'This is a brief description of project two.',
+      image: 'https://via.placeholder.com/300x200',
+      github: 'https://github.com/user/project-two',
+      live: 'https://project-two.live'
+    }
   ]
 }
 
