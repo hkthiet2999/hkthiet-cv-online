@@ -143,33 +143,50 @@ let resumeData = {
   ],
   "projects": [
     {
-      title: 'Project One',
-      description: 'This is a brief description of project one.',
-      image: 'https://via.placeholder.com/300x200',
+      title: 'Chatty App',
+      descriptions: [
+        'Cross-Platform Compatibility ( Windows, macOS, and Linux)',
+        'Real-Time Messaging & Group Chats'
+      ],
+      techStack: [
+        'NestJS',
+        'ReactJS',
+        'ElectronJS',
+        'Postgres',
+        'Azure DevOps',
+        'GitHub Actions',
+        'Tailwind Css'
+      ],
       github: 'https://github.com/user/project-one',
       live: 'https://project-one.live'
     },
     {
-      title: 'Project Two',
-      description: 'This is a brief description of project two.',
-      image: 'https://via.placeholder.com/300x200',
-      github: 'https://github.com/user/project-two',
-      live: 'https://project-two.live'
+      title: 'GitBook',
+      descriptions: [
+        'Technical blogs',
+        'Making knowledge accessible and collaborative',
+        'Markdown Writing'
+      ],
+      techStack: [
+        'GitHub Actions',
+        'Mkdocs'
+      ],
+      github: 'https://github.com/hkthiet2999/harry-gitbook',
+      live: 'https://hkthiet2999.github.io/harry-gitbook/'
     },
     {
-      title: 'Project Two',
-      description: 'This is a brief description of project two.',
-      image: 'https://via.placeholder.com/300x200',
-      github: 'https://github.com/user/project-two',
-      live: 'https://project-two.live'
+      title: 'This website with ❤️',
+      descriptions: [
+        'Showcases my expertise, skills, creativity, and abilities in software development',
+      ],
+      techStack: [
+        'ReactJS',
+        'HTML/CSS',
+        'Bootstrap4'
+      ],
+      github: 'https://github.com/hkthiet2999/hkthiet-cv-online',
+      live: 'https://hkthiet2999.github.io/hkthiet-cv-online/'
     },
-    {
-      title: 'Project Two',
-      description: 'This is a brief description of project two.',
-      image: 'https://via.placeholder.com/300x200',
-      github: 'https://github.com/user/project-two',
-      live: 'https://project-two.live'
-    }
   ]
 }
 

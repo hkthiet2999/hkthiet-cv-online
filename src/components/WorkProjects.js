@@ -13,21 +13,38 @@ class WorkProjects extends Component {
                         <div className="project-cards-container">
                             {projects.map(project => (
                                 <div className="project-card" key={project.id}>
-                                    <img src={project.image} alt={project.title} className="project-image"/>
                                     <div className="project-content">
                                         <h3 className="project-title">{project.title}</h3>
-                                        <p className="project-description">{project.description}</p>
-                                        <div className="project-links">
-                                            {project.github && (
-                                                <a href={project.github} target="_blank" rel="noopener noreferrer">
-                                                    <FaGithub size={20}/> GitHub
-                                                </a>
-                                            )}
-                                            {project.live && (
-                                                <a href={project.live} target="_blank" rel="noopener noreferrer">
-                                                    <FaExternalLinkAlt size={20}/> Live Demo
-                                                </a>
-                                            )}
+                                        <ul>
+                                            {
+                                                project.descriptions && project.descriptions.map((description) => (
+                                                <li>
+                                                    {description}
+                                                </li>
+                                                ))
+                                            }
+                                        </ul>
+                                        <div className="project-tech-stack">
+                                            {
+                                                project.techStack && project.techStack.map((tech) => (
+                                                    <span className="tech-item">{tech}</span>
+                                                ))
+                                            }
+                                        </div>
+                                        
+                                        <div className="project-footer">
+                                            <div className="project-links">
+                                                {project.github && (
+                                                    <a href={project.github} target="_blank" rel="noopener noreferrer">
+                                                        <FaGithub size={20}/> GitHub
+                                                    </a>
+                                                )}
+                                                {project.live && (
+                                                    <a href={project.live} target="_blank" rel="noopener noreferrer">
+                                                        <FaExternalLinkAlt size={20}/> Live Demo
+                                                    </a>
+                                                )}
+                                            </div>
                                         </div>
                                     </div>
                                 </div>

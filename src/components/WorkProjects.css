@@ -3,11 +3,11 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around; /* This will ensure spacing around items */
+    font-family: 'Roboto Mono', monospace
 }
 
 .project-card {
     display: flex;
-    flex-direction: column;
     border: 1px solid #ddd;
     border-radius: 8px;
     overflow: hidden;
@@ -47,7 +47,7 @@
 
 .project-links a {
     text-decoration: none;
-    color: #007bff;
+    color: #8b9798;;
     font-weight: bold;
     display: flex;
     align-items: center;
@@ -60,3 +60,25 @@
 .project-links a svg {
     margin-right: 8px;
 }
+
+.project-tech-stack {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-bottom: 20px; /* Add some space below the tech stack section */
+}
+
+.tech-item {
+    background-color: #e7ebf8;
+    border-radius: 6px;
+    padding: 0px 5px;
+    font-size: 12px;
+    color: #333;
+    white-space: nowrap;
+}
+
+.project-footer {
+
+    border-top: 1px solid #ddd; /* Adds a top border for visual separation */
+}
+
