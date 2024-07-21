@@ -105,15 +105,9 @@ let resumeData = {
   ],
   "skillsDescription": "Programming languages",
   "skills": [
-    {
-      "skillname": `<i class="devicon-python-plain"></i>`
-    },
-    {
-      "skillname": "CSS"
-    },
-    {
-      "skillname": "Reactjs"
-    }
+    "Typescript", "Javascript", "HTML/CSS", "NodeJS", "NestJS", "Angular", "React",
+    "Postgres", "MongoDB", "TypeORM", "Redis", "Testing", "Elasticsearch", "Microservices",
+    "Azure DevOps", "AWS", "Docker", "Kubernetes", "SNS/SQS", "CronJob", "Design Patterns", "Git"
   ],
   "portfolio": [
     {
