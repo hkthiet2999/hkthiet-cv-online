@@ -1,6 +1,6 @@
 let resumeData = {
   "imagebaseurl": "",
-  "name": "Harry Hoang",
+  "name": "Hoang Kien Thiet",
   "role": "",
   "linkedinId": "https://www.linkedin.com/in/hkthiet99/",
   "skypeid": "live:.cid.1be26794659f7aa3",
@@ -26,7 +26,7 @@ let resumeData = {
     },
 
   ],
-  "aboutme": "As a Software Engineering graduate from Ton Duc Thang University, I've enriched my expertise over two years at Contemi Vietnam, where I've thrived as a Full Stack Developer. I am dedicated to applying this specialized experience in a role that not only pushes my technical boundaries but also aligns with the strategic objectives of the organization. My commitment lies in driving excellence, fostering continuous personal growth, and contributing to success through innovative and collaborative efforts." ,
+  "aboutme": "As a professional Fullstack Web Developer with almost three years of experience, my expertise lies in creating scalable and efficient web applications that meet strategic organizational goals. I am dedicated to continuous learning, innovation, and collaboration, aiming to leverage my technical skills and experience to contribute to organizational success and growth." ,
   "address": "District Tan Binh, Ho Chi Minh City, Vietnam",
   "website": "hkthiet99@gmail.com",
   "education": [
@@ -34,17 +34,54 @@ let resumeData = {
       "UniversityName": "Ton Duc Thang University",
       "specialization": "Software Engineering",
       "MonthOfPassing": "September",
-      "YearOfPassing": "2017 - 2022",
-      "Achievements": "Current GPA: 7.21",
+      "YearOfPassing": "2017 - 2021",
+      "Achievements": "GPA: 7.21/10",
     },
 
   ],
   "work": [
-
+    [
+      {
+        "CompanyName": "Contemi Vietnam - Seamless Insurance Project",
+        "specialization": "Fullstack Web Developer",
+        "Timeline": [
+          {
+            "time": "January 2024 - Present",
+            "specialization": "Mid-level",
+            "descriptions": [
+              "Participate in code reviews and provide constructive feedback to peers.",
+              "Continue to develop and maintain features for clients, system analysis, testing and debugging, proposing solutions.",
+              "Key member of the Workflow module, which automating business processes.",
+              "Production Support: Tracks and identifies critical bugs and necessary log captures."
+            ]
+          },
+          {
+            "time": "March 2022 - December 2023",
+            "specialization": "Junior",
+            "descriptions": [
+              "Participated in projects with NIM, Aspida, Varsam, and Quantum clients.",
+              "Integral member of the development team for the White-label Portal Application.",
+              "Collaborated with cross-functional teams to implement and maintain features in a microservices ecosystem",
+              "Nominated for Excellent Employee in the fourth quarter of 2023."
+            ]
+          },
+          {
+            "time": "January - March 2022",
+            "specialization": "Fresher",
+            "descriptions": [
+              "Underwent comprehensive professional technical training.",
+              "Familiarized with FE applications and participated in the migration of legacy PHP services to Node.js"
+            ]
+          },
+        
+        ]
+        
+      },
+    ],
     {
       "CompanyName": "Carp Tech Corporation",
       "specialization": "Front-end Developer",
-      "MonthOfLeaving": "September - November",
+      "MonthOfLeaving": "September - December",
       "YearOfLeaving": "2021",
       "Achievements": "Working onsite at Asia Comercial Bank, participate in the React Boilerplate project - a website that specifies ACB's Components and build functionalities according to customer requirements."
     },

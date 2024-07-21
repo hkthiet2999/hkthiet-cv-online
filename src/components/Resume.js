@@ -38,28 +38,60 @@ export default class Resume extends React.Component {
           </div>
 
           <div className="nine columns main-col">
-            {
-              resumeData.work && resumeData.work.map((item) => {
+          {
+            resumeData.work && resumeData.work.map((item, index) => {
+              if (Array.isArray(item)) {
+                return item.map((i, subIndex) => (
+                  <div className="row item" key={`subitem-${index}-${subIndex}`}>
+                    <div className="twelve columns">
+                      <h3>{i.CompanyName}</h3>
+                      <p className="info">
+                        {i.specialization}
+                      </p>
+                      {
+                        i.Timeline && i.Timeline.map((timelineItem, timelineIndex) => (
+                          <div key={`timeline-${index}-${subIndex}-${timelineIndex}`}>
+                            <p className="info">
+                            {timelineItem.specialization}
+                            <span>&bull;</span> <em className="date">{timelineItem.time}</em>
+                            </p>
+                            <ul style={{ listStyleType: 'disc' }}>
+                              {
+                                timelineItem.descriptions && timelineItem.descriptions.map((description, descIndex) => (
+                                  <li>
+                                    {description}
+                                  </li>
+                                ))
+                              }
+                            </ul>
+                          </div>
+                        ))
+                      }
+                    </div>
+                  </div>
+                ));
+              }  else {
                 return (
-                  <div className="row item">
+                  <div className="row item" key={`item-${index}`}>
                     <div className="twelve columns">
                       <h3>{item.CompanyName}</h3>
                       <p className="info">
                         {item.specialization}
-                        <span>&bull;</span> <em className="date">{item.MonthOfLeaving} {item.YearOfLeaving}</em></p>
+                        <span>&bull;</span> <em className="date">{item.MonthOfLeaving} {item.YearOfLeaving}</em>
+                      </p>
                       <p>
                         {item.Achievements}
                       </p>
                     </div>
-
                   </div>
-
-                )
-              })
-            }
-            <a id="certificate"></a>
-          </div>
+                );
+              }
+            })
+          }
+          <a id="certificate"></a>
         </div>
+
+      </div>
 
         <div className="row work">
           <div className="three columns header-col">
