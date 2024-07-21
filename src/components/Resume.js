@@ -1,6 +1,4 @@
 import React from 'react';
-import certificateSrc from './images/certificates/serverside-nodejs-express-mongodb.png';
-
 export default class Resume extends React.Component {
   render() {
     let resumeData = this.props.resumeData;
@@ -96,12 +94,13 @@ export default class Resume extends React.Component {
 
         <div className="row work">
           <div className="three columns header-col">
-            <h1><span>Certificate</span></h1>
+            <h1><span>Achievement</span></h1>
           </div>
 
           <div className="nine columns main-col">
             {
               resumeData.certificate && resumeData.certificate.map((item) => {
+                const imageSrc = require(`${item.imageSrc}`);
                 return (
                   <div className="row item">
                     <div className="twelve columns">
@@ -111,10 +110,15 @@ export default class Resume extends React.Component {
                       </p>
 
                       <div>
-                        <img src={certificateSrc} alt="Server-side Development with NodeJS, Express and MongoDB" />
+                        <img src={imageSrc} alt={item.certificateName} />
                       </div>
-
-                      <p>Check it out by <a href="https://bit.ly/2VDi7lQ"> click</a> and <a href="https://bit.ly/3yxmVrA"> my GitHub repository</a> </p>
+                      {
+                        (item.descriptions === 'html' && item.certificateName === 'Server-side Development with NodeJS, Express and MongoDB') ? (
+                          <p>Check it out by <a href="https://bit.ly/2VDi7lQ" target='_blank'>click</a> and <a href="https://bit.ly/3yxmVrA" target='_blank'>my GitHub repository</a></p>
+                        ) : (
+                          <p>{item.descriptions}</p>
+                        )
+                      }
                     </div>
 
                   </div>

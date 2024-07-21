@@ -99,8 +99,14 @@ let resumeData = {
     {
       "certificateName": "Server-side Development with NodeJS, Express and MongoDB",
       "dateOfAchived": "Achived Aug 08 2021",
-      "image": "sm",
-      "descriptions": "Check it out: https://bit.ly/2VDi7lQ and my GitHub repository: https://bit.ly/3yxmVrA",
+      "imageSrc": './images/certificates/serverside-nodejs-express-mongodb.png',
+      "descriptions": 'html',
+    },
+    {
+      "certificateName": "Nomination Employee Recognition'23 Cycle 1 (July-September)",
+      "dateOfAchived": "Achived September 2023",
+      "imageSrc": './images/certificates/nomination.png',
+      "descriptions": "Received a nomination of the Employee recognition program",
     }
   ],
   "skillsDescription": "Programming languages",
