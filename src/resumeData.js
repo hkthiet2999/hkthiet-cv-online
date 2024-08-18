@@ -163,8 +163,8 @@ let resumeData = {
         'GitHub Actions',
         'Tailwind Css'
       ],
-      github: 'https://github.com/user/project-one',
-      live: 'https://project-one.live'
+      github: 'https://github.com/orgs/tdtu-se-202/repositories',
+      live: 'https://white-island-00bebbb10.3.azurestaticapps.net/'
     },
     {
       title: 'GitBook',
