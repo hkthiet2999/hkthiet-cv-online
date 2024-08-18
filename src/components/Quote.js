@@ -28,15 +28,14 @@ export default class Quote extends React.Component {
           <div className="row section-head">
             <div className="ten columns">
               <p className="lead">
-              Finally, I would like to say "Thank You" for spent time to look at my CV profile. You're a flower 🌼 on earth 🌎, let's make your life beautiful and meaningful
+              Finally, I would like to say "Thank You" for spent time to look at my profile. You're a flower 🌼 on earth 🌎, let's make our life beautiful and meaningful
               </p>
               <br></br>
               <p className="lead">
-              Feel free to contact me for any work or suggestions below
+              Feel free to contact me 🙋‍♂️
               </p>
             </div>
-          </div>
-          <div>
+            <div>
             <div className="row banner">
               <div className="banner-text">
                 <ul className="social">
@@ -54,7 +53,7 @@ export default class Quote extends React.Component {
               </div>
             </div>
           </div>
-          
+          </div>  
         </div>  {/* text-container ends */}
       </section>
         );

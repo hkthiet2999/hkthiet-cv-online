@@ -1,5 +1,4 @@
 import React from 'react';
-import cvpdf from './cv-pdf/[HCM]-CV-HoangKienThiet-2021.pdf';
 export default class About extends React.Component {
    render() {
       let resumeData = this.props.resumeData;
@@ -33,11 +32,10 @@ export default class About extends React.Component {
                               <br></br>
                               <span> <i class="fa fa-envelope"></i>&nbsp;&nbsp; <a href="mailto:hkthiet99@gmail.com" target="_blank" rel="noopener noreferrer">{resumeData.website}</a> </span>
                               <br></br>
-                              <span><i class="fa fa-phone"></i>&nbsp;&nbsp;(+84) 79 862-4951</span>
+                              <span><i class="fa fa-phone"></i>&nbsp;&nbsp;(+84) 79 862 4951</span>
                               <br></br>
-                              <span><i class="fa fa-download"></i>&nbsp;&nbsp;
-                              Download my CV.pdf by
-                              <a href={cvpdf} download="[HCM]_CV_HoangKienThiet_2021.pdf"> click</a>
+                              <span><i class="fa fa-file"></i>&nbsp;&nbsp;
+                              <a href="https://shorturl.at/xnyW5" target='_blank' alt="[HCM]_CV_HoangKienThiet_2024">[HCM]_CV_HoangKienThiet_2024</a>
                               </span>
 
                            </p>

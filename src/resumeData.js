@@ -42,7 +42,7 @@ let resumeData = {
   "work": [
     [
       {
-        "CompanyName": "Contemi Vietnam - Seamless Insurance Project",
+        "CompanyName": "Contemi Vietnam - Seamless Insurance Product",
         "specialization": "Fullstack Web Developer",
         "Timeline": [
           {

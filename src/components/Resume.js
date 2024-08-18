@@ -46,7 +46,7 @@ export default class Resume extends React.Component {
                       <p className="info">
                         {i.specialization}
                       </p>
-                      <a href="https://seamless.insure/" target="_blank" rel="noopener noreferrer">Seamless Insurance Project</a>
+                      <a href="https://seamless.insure/" target="_blank" rel="noopener noreferrer">Seamless Insurance Product</a>
                       {
                         i.Timeline && i.Timeline.map((timelineItem, timelineIndex) => (
                           <div key={`timeline-${index}-${subIndex}-${timelineIndex}`}>
