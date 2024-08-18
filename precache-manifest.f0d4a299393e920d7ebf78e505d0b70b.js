@@ -1,31 +1,23 @@
 self.__precacheManifest = [
   {
-    "revision": "17a09ec4185ec8b5077c",
-    "url": "/hkthiet-cv-online/static/css/main.523cdf63.chunk.css"
+    "revision": "75f77d09c573f943e590",
+    "url": "/hkthiet-cv-online/static/css/main.55941184.chunk.css"
   },
   {
-    "revision": "17a09ec4185ec8b5077c",
-    "url": "/hkthiet-cv-online/static/js/main.17a09ec4.chunk.js"
+    "revision": "75f77d09c573f943e590",
+    "url": "/hkthiet-cv-online/static/js/main.75f77d09.chunk.js"
   },
   {
-    "revision": "2675e4571166014a001a",
-    "url": "/hkthiet-cv-online/static/css/1.95dd13fe.chunk.css"
+    "revision": "7899f6d938a4a575a425",
+    "url": "/hkthiet-cv-online/static/css/1.fc0ddeb1.chunk.css"
   },
   {
-    "revision": "2675e4571166014a001a",
-    "url": "/hkthiet-cv-online/static/js/1.2675e457.chunk.js"
+    "revision": "7899f6d938a4a575a425",
+    "url": "/hkthiet-cv-online/static/js/1.7899f6d9.chunk.js"
   },
   {
     "revision": "44ea27f2879e522d7745",
     "url": "/hkthiet-cv-online/static/js/runtime~main.44ea27f2.js"
-  },
-  {
-    "revision": "ad7841003ba1a7520574a7937c0bd0fe",
-    "url": "/hkthiet-cv-online/static/media/[HCM]-CV-HoangKienThiet-2021.ad784100.pdf"
-  },
-  {
-    "revision": "731bf5d93de3d77dcc8ddacb5dd52b4b",
-    "url": "/hkthiet-cv-online/static/media/serverside-nodejs-express-mongodb.731bf5d9.png"
   },
   {
     "revision": "311cc55a6e33c324d3ff76f64bb1437c",
@@ -276,7 +268,39 @@ self.__precacheManifest = [
     "url": "/hkthiet-cv-online/static/media/3.4e648b40.png"
   },
   {
-    "revision": "936e1928616204bd95e1ee86b0aab115",
+    "revision": "ad7841003ba1a7520574a7937c0bd0fe",
+    "url": "/hkthiet-cv-online/static/media/[HCM]-CV-HoangKienThiet-2021.ad784100.pdf"
+  },
+  {
+    "revision": "a926439ff95e70cea477d932d3c56ee0",
+    "url": "/hkthiet-cv-online/static/media/background1.a926439f.jpg"
+  },
+  {
+    "revision": "a926439ff95e70cea477d932d3c56ee0",
+    "url": "/hkthiet-cv-online/static/media/background2.a926439f.jpg"
+  },
+  {
+    "revision": "a926439ff95e70cea477d932d3c56ee0",
+    "url": "/hkthiet-cv-online/static/media/background3.a926439f.jpg"
+  },
+  {
+    "revision": "a926439ff95e70cea477d932d3c56ee0",
+    "url": "/hkthiet-cv-online/static/media/background4.a926439f.jpg"
+  },
+  {
+    "revision": "a926439ff95e70cea477d932d3c56ee0",
+    "url": "/hkthiet-cv-online/static/media/background5.a926439f.jpg"
+  },
+  {
+    "revision": "d8fe54a3be790cd2aa0d28dbc6bf1f09",
+    "url": "/hkthiet-cv-online/static/media/nomination.d8fe54a3.png"
+  },
+  {
+    "revision": "731bf5d93de3d77dcc8ddacb5dd52b4b",
+    "url": "/hkthiet-cv-online/static/media/serverside-nodejs-express-mongodb.731bf5d9.png"
+  },
+  {
+    "revision": "995148541a2b4a6435679453b7357dd8",
     "url": "/hkthiet-cv-online/index.html"
   }
 ];
