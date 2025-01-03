@@ -45,6 +45,19 @@
     margin-top: 20px;
 }
 
+.coming-soon-text {
+    display: inline-block; /* Ensures it aligns nicely with the links */
+    margin-left: 10px; /* Adds spacing from the previous element */
+    padding: 2px 8px; /* Adds some padding for better visibility */
+    font-size: 14px; /* Adjust the font size */
+    font-weight: bold; /* Makes the text stand out */
+    color: #ffffff; /* White text color */
+    background-color: #ff5050; /* A bright orange background */
+    border-radius: 4px; /* Rounds the edges for a pill-like look */
+    text-transform: uppercase; /* Makes the text all caps */
+    letter-spacing: 1px; /* Adds spacing between letters for style */
+}
+
 .project-links a {
     text-decoration: none;
     color: #8b9798;;

@@ -102,12 +102,6 @@ let resumeData = {
       "imageSrc": './images/certificates/serverside-nodejs-express-mongodb.png',
       "descriptions": 'html',
     },
-    {
-      "certificateName": "Nomination Employee Recognition'23 Cycle 1 (July-September)",
-      "dateOfAchived": "Achived September 2023",
-      "imageSrc": './images/certificates/nomination.png',
-      "descriptions": "Received a nomination of the Employee recognition program",
-    }
   ],
   "skillsDescription": "Programming languages",
   "skills": [
@@ -148,6 +142,21 @@ let resumeData = {
     }
   ],
   "projects": [
+    {
+      title: 'Sila Tools',
+      descriptions: [
+        "A versatile Chrome extension with translation features, including definitions, user's dictionary, text to speech (TTS) and YouTube subtitle translations.",
+        "Integrated AI tools for grammar fixes, text improvements, summarization, and real-time AI chat."
+      ],
+      techStack: [
+        'NestJS',
+        'ReactJS',
+        'NextUI',
+        'Postgres',
+        'AWS'
+      ],
+      underDevelopment: true,
+    },
     {
       title: 'Chatty App',
       descriptions: [

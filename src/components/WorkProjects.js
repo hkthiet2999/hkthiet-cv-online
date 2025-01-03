@@ -44,6 +44,10 @@ class WorkProjects extends Component {
                                                         <FaExternalLinkAlt size={20}/> Live Demo
                                                     </a>
                                                 )}
+
+                                                {project.underDevelopment && (
+                                                    <span className="coming-soon-text">Coming Soon</span>
+                                                )}
                                             </div>
                                         </div>
                                     </div>
