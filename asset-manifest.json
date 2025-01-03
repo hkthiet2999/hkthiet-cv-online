@@ -1,7 +1,7 @@
 {
   "main.css": "/hkthiet-cv-online/static/css/main.39c711a4.chunk.css",
-  "main.js": "/hkthiet-cv-online/static/js/main.9d689f03.chunk.js",
-  "main.js.map": "/hkthiet-cv-online/static/js/main.9d689f03.chunk.js.map",
+  "main.js": "/hkthiet-cv-online/static/js/main.6549e91c.chunk.js",
+  "main.js.map": "/hkthiet-cv-online/static/js/main.6549e91c.chunk.js.map",
   "static/css/1.47fe110b.chunk.css": "/hkthiet-cv-online/static/css/1.47fe110b.chunk.css",
   "static/js/1.9df65a4a.chunk.js": "/hkthiet-cv-online/static/js/1.9df65a4a.chunk.js",
   "static/js/1.9df65a4a.chunk.js.map": "/hkthiet-cv-online/static/js/1.9df65a4a.chunk.js.map",
@@ -29,9 +29,9 @@
   "static/media/background5.jpg": "/hkthiet-cv-online/static/media/background5.a926439f.jpg",
   "static/media/nomination.png": "/hkthiet-cv-online/static/media/nomination.d8fe54a3.png",
   "static/media/serverside-nodejs-express-mongodb.png": "/hkthiet-cv-online/static/media/serverside-nodejs-express-mongodb.731bf5d9.png",
-  "static/css/main.39c711a4.chunk.css.map": "/hkthiet-cv-online/static/css/main.39c711a4.chunk.css.map",
   "static/css/1.47fe110b.chunk.css.map": "/hkthiet-cv-online/static/css/1.47fe110b.chunk.css.map",
+  "static/css/main.39c711a4.chunk.css.map": "/hkthiet-cv-online/static/css/main.39c711a4.chunk.css.map",
   "index.html": "/hkthiet-cv-online/index.html",
-  "precache-manifest.dd429f963068bd4d5abec72f7e98aa92.js": "/hkthiet-cv-online/precache-manifest.dd429f963068bd4d5abec72f7e98aa92.js",
+  "precache-manifest.c65dda91ea028315662398d21749e10f.js": "/hkthiet-cv-online/precache-manifest.c65dda91ea028315662398d21749e10f.js",
   "service-worker.js": "/hkthiet-cv-online/service-worker.js"
 }
