@@ -35,7 +35,7 @@ export default class About extends React.Component {
                               <span><i class="fa fa-phone"></i>&nbsp;&nbsp;(+84) 79 862 4951</span>
                               <br></br>
                               <span><i class="fa fa-file"></i>&nbsp;&nbsp;
-                              <a href="https://shorturl.at/xnyW5" target='_blank' alt="[HCM]_CV_HoangKienThiet_2024">[HCM]_CV_HoangKienThiet_2024</a>
+                              <a href="https://shorturl.at/xnyW5" target='_blank' alt="[HCM]_CV_HoangKienThiet_2025">[HCM]_CV_HoangKienThiet_2025</a>
                               </span>
 
                            </p>
