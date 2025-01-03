@@ -26,7 +26,7 @@ let resumeData = {
     },
 
   ],
-  "aboutme": "As a professional Fullstack Web Developer with almost three years of experience, my expertise lies in creating scalable and efficient web applications that meet strategic organizational goals. I am dedicated to continuous learning, innovation, and collaboration, aiming to leverage my technical skills and experience to contribute to organizational success and growth." ,
+  "aboutme": "As a professional Fullstack Web Developer with more than three years of experience, my expertise lies in creating scalable and efficient web applications that meet strategic organizational goals. I am dedicated to continuous learning, innovation, and collaboration, aiming to leverage my technical skills and experience to contribute to organizational success and growth." ,
   "address": "District Tan Binh, Ho Chi Minh City, Vietnam",
   "website": "hkthiet99@gmail.com",
   "education": [
