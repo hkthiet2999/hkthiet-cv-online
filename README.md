@@ -8,3 +8,6 @@ Welcome to my Portfolio
 4. Run ```npm start``` to spin the up the local dev server port 3000.(http://localhost:3000).
 5. Make required changes in ```src/resumeData.js``` to suit your needs.
 
+
+### Note:
+`export NODE_OPTIONS=--openssl-legacy-provider`
